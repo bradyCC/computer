@@ -1,0 +1,245 @@
+
+/*基准样式*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑", "宋体";
+    font-size: 12px;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+/*a:hover{*/
+/*color: #f30213;*/
+/*}*/
+body {
+    height: 100%;
+    /*color: #666;*/
+}
+
+ol, ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*个人中心样式*/
+
+/*主体main样式*/
+main {
+    width: 1210px;
+    margin: 15px auto;
+}
+/*个人中心header区样式*/
+main .header {
+    height: 30px;
+    line-height: 30px;
+    /*background: #eee;*/
+
+}
+.header .title {
+    font-size: 14px;
+    color: #272822;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.header .title a {
+    color: #272822;
+}
+
+.header .title a:hover {
+    color: #f30213;
+}
+.header .title b {
+    font-size: 12px;
+}
+
+/*个人中心main区样式*/
+main .main{
+    height: 500px;
+    background: #f1f1f1;
+    border: 1px solid #f8f8f8;
+}
+.main .left{
+    width: 207px;
+    height: 500px;
+    float: left;
+    border-right: 1px solid #f8f8f8;
+}
+.main .right{
+    width: 1000px;
+    height: 500px;
+    float: left;
+}
+
+/*左侧样式*/
+.left ul{
+    width: 207px;
+    text-align: center;
+}
+.left ul li{
+    width: 207px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    border-bottom: 1px solid #f8f8f8;
+    font-size: 14px;
+    font-weight: bold;
+    background: #f30213;
+    color: #fff;
+}
+
+.left ul li a{
+    display: block;
+    width: 207px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    border-bottom: 1px solid #f8f8f8;
+    font-size: 14px;
+    font-weight: bold;
+    background: #f30213;
+    color: #fff;
+
+}
+
+/*收货地址右侧样式*/
+.right table tr,th,td{
+    border: 1px solid #f8f8f8;
+    font-size: 14px;
+    text-align: center;
+    border-top: 0;
+}
+.right table tr{
+    height: 30px;
+}
+.right table tr{
+    background: #0ff;
+}
+.right table tr:first-child{
+    background: #f30213;
+    color: #fff;
+}
+.right table tr a{
+    color: #272822;
+    font-size: 14px;
+}
+.right table tr a:hover{
+    color: #f30213;
+}
+.right .i_w{
+    width: 54px;
+}
+.right .n_w{
+    width: 100px;
+}
+.right .a_w{
+    width: 450px;
+}
+.right .p_w{
+    width: 120px;
+}
+.right .e_w{
+    width: 180px;
+}
+
+/*新增收货地址右侧样式*/
+.f_title{
+    height: 30px;
+    border: 1px solid #f8f8f8;
+    background: #f30213;
+    border-top: 0;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.f_left{
+    width: 206px;
+    height: 500px;
+    border-right: 1px solid #f8f8f8;
+    border-left: 1px solid #f8f8f8;
+    float: left;
+}
+.f_right{
+    width: 792px;
+    height: 500px;
+    float: left;
+}
+.f_left ul{
+    width: 206px;
+    text-align: center;
+    border-top: 1px solid #f8f8f8;
+}
+.f_left ul li{
+    width: 206px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    border-bottom: 1px solid #f8f8f8;
+    font-size: 14px;
+    font-weight: bold;
+    background: #0ff;
+    color: #272822;
+}
+.f_right ul{
+    width: 792px;
+    border-top: 1px solid #f8f8f8;
+}
+input[type=text], input[type=email]{
+    width: 786px;
+    height: 27px;
+    font-size: 14px;
+    margin-left: 1px;
+}
+.submit, .reset{
+    cursor: pointer;
+}
+.submit{
+    margin-top: 5px;
+}
+
+/*我的订单右侧样式*/
+.right .in_i{
+    width: 100px;
+}
+.right .in_n{
+    width: 350px;
+}
+.right .in_t{
+    width: 345px;
+}
+.right .in_s{
+    width: 100px;
+}
+.right .in_r{
+    width: 100px;
+}
+
+/*订单详情样式*/
+.right .w_i{
+    width: 40px;
+}
+.right .w_n{
+    /*width: 500px;*/
+}
+.right .w_im{
+    width: 80px;
+}
+.right .w_p{
+    width: 100px;
+}
+.right .w_num{
+    width: 60px;
+}
+.right .w_r{
+    width: 80px;
+}

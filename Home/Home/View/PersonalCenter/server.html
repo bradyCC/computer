@@ -1,0 +1,27 @@
+<extend name="PersonalCenter/index"/>
+
+<block name="css">
+    <style>
+        .right .welcome{
+            display: none;
+        }
+        .indent{
+            display: none;
+        }
+    </style>
+</block>
+
+<!--个人中心客户服务页面-->
+<block name="main">
+    <div class="right_item">
+        <div class="f_title">客户服务</div>
+    </div>
+</block>
+
+<block name="js">
+    <script>
+        //客户服务显示
+        $(".left ul li a").eq(3).css({"color":"#f30213","background":"#fff"});
+
+    </script>
+</block>

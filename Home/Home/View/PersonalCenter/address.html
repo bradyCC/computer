@@ -1,0 +1,55 @@
+<extend name="PersonalCenter/index"/>
+
+<block name="css">
+    <style>
+        .right .welcome{
+            display: none;
+        }
+        .indent{
+            display: none;
+        }
+    </style>
+</block>
+
+<!--个人中心收货地址页面-->
+<block name="main">
+    <div class="right_item">
+        <table>
+            <tr>
+                <th class="i_w">编号</th>
+                <th class="n_w">姓名</th>
+                <th class="a_w">地址</th>
+                <th class="p_w">电话</th>
+                <th class="e_w">邮箱</th>
+                <th class="i_w">修改</th>
+                <th class="i_w">删除</th>
+            </tr>
+            <volist name="addrs" id="addr">
+                <tr>
+                    <td>{$i}</td>
+                    <td>{$addr['name']}</td>
+                    <td>{$addr['address']}</td>
+                    <td>{$addr['phone']}</td>
+                    <td>{$addr['email']}</td>
+                    <td><a href="__APP__/Home/PersonalCenter/saveA?id={$addr['id']}">修改</a></td>
+                    <td><a href="__APP__/Home/PersonalCenter/deleteA?id={$addr['id']}" class="del">删除</a></td>
+                </tr>
+            </volist>
+        </table>
+    </div>
+</block>
+
+<block name="js">
+    <script>
+        //收货地址显示
+        $(".left ul li a").eq(0).css({"color":"#f30213","background":"#fff"});
+
+        //删除收货地址确认框
+        $(".del").click(function(){
+            var c = confirm("您确认删除吗？");
+            if(!c){
+                return false;
+            }
+        });
+    </script>
+</block>

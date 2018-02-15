@@ -1,0 +1,33 @@
+
+/*后台欢迎页面样式*/
+*{
+    font-family: "微软雅黑", "宋体";
+}
+body{
+    padding-top: 60px;
+    background: url(../images/bg_1.jpg);
+}
+.navbar-brand{
+    color: #fff!important;
+    font-weight: bold;
+}
+.caption{
+    position: relative;
+    height: 80px;
+}
+.caption img{
+    position: absolute;
+    top: 12px;
+}
+.caption h3{
+    position: absolute;
+    left: 110px;
+    top: 12px;
+}
+.a_group{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+

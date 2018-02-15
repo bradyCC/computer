@@ -1,0 +1,181 @@
+<!--模板继承-->
+<extend name="Index/index"/>
+
+<block name="css">
+    <style>
+        /*主体main样式*/
+        main{
+            width: 1210px;
+            height: 534px;
+            margin: 0 auto 15px;
+            overflow: hidden;
+        }
+        /*外设装备头部header区样式*/
+        .header{
+            height: 50px;
+            line-height: 50px;
+            border-bottom: 1px solid #f8f8f8;
+        }
+        .title{
+            font-size: 18px;
+            color: #272822;
+            font-weight: bold;
+            margin-left: 15px;
+        }
+        .title a{
+            font-size: 20px;
+            color: #272822;
+        }
+        .title a:hover{
+            color: #f30213;
+        }
+        .title b{
+            font-size: 16px;
+        }
+        .brand{
+            float: right;
+            margin-right: 15px;
+        }
+        .brand ul li{
+            float: left;
+            font-size: 14px;
+            padding: 0 10px;
+        }
+        .brand ul li:hover{
+            cursor: pointer;
+
+        }
+        .brand ul li.curr{
+            color: #f30213;
+        }
+        /*外设装备主体main区样式*/
+        .main{
+            height: 500px;
+        }
+        .main ul li{
+            position: relative;
+            float: left;
+            width: 201px;
+            height: 209px;
+            padding: 15px 20px;
+            text-align: center;
+            border-bottom: 1px solid #f8f8f8;
+            border-left: 1px solid #f8f8f8;
+        }
+        .main .p_name{
+            margin-top: 5px;
+            height: 22px;
+            line-height: 22px;
+            overflow: hidden;
+        }
+        .main .p_price{
+            line-height: 24px;
+            font-size: 14px;
+            color: #c00;
+        }
+        .main ul li a:hover{
+            color: #f30213;
+        }
+        .main li:hover{
+            box-shadow: 0 5px 10px rgba(19, 162, 255, .5);
+        }
+        .main .item_1,.main .item_6{
+            border-left: 0;
+        }
+    </style>
+</block>
+
+<block name="main">
+    <main>
+        <!--外设装备标题header区 start-->
+        <div class="header">
+            <span class="title"><a href="__APP__/Home/Index/index">首页 </a> &gt; <a
+                    href="javascript:">外设装备 </a>  &gt; <b>键盘</b></span>
+            <span class="brand">
+                    <ul>
+                        <li>苹果</li>
+                        <li>小米</li>
+                        <li>联想</li>
+                        <li>戴尔</li>
+                        <li>微软</li>
+                    </ul>
+                </span>
+        </div>
+        <!--外设装备标题header区 end-->
+
+        <!--外设装备主体main区 start-->
+        <div class="main">
+            <ul class="ul_item">
+                <volist name="items_a" id="item_a">
+                    <li class="item_1">
+                        <a href="__APP__/Home/Item/detail?id={$item_a['id']}">
+                            <img src="{$item_a['img']}" width="160" height="160" alt="">
+                            <P class="p_name">{$item_a['itemname']}</P>
+                            <p class="p_price">￥{$item_a['price']}</p>
+                        </a>
+                    </li>
+                </volist>
+            </ul>
+            <ul class="ul_item">
+                <volist name="items_b" id="item_b">
+                    <li class="item_1">
+                        <a href="__APP__/Home/Item/detail?id={$item_b['id']}">
+                            <img src="{$item_b['img']}" width="160" height="160" alt="">
+                            <P class="p_name">{$item_b['itemname']}</P>
+                            <p class="p_price">￥{$item_b['price']}</p>
+                        </a>
+                    </li>
+                </volist>
+            </ul>
+            <ul class="ul_item">
+                <volist name="items_c" id="item_c">
+                    <li class="item_1">
+                        <a href="__APP__/Home/Item/detail?id={$item_c['id']}">
+                            <img src="{$item_c['img']}" width="160" height="160" alt="">
+                            <P class="p_name">{$item_c['itemname']}</P>
+                            <p class="p_price">￥{$item_c['price']}</p>
+                        </a>
+                    </li>
+                </volist>
+            </ul>
+            <ul class="ul_item">
+                <volist name="items_d" id="item_d">
+                    <li class="item_1">
+                        <a href="__APP__/Home/Item/detail?id={$item_d['id']}">
+                            <img src="{$item_d['img']}" width="160" height="160" alt="">
+                            <P class="p_name">{$item_d['itemname']}</P>
+                            <p class="p_price">￥{$item_d['price']}</p>
+                        </a>
+                    </li>
+                </volist>
+            </ul>
+            <ul class="ul_item">
+                <volist name="items_e" id="item_e">
+                    <li class="item_1">
+                        <a href="__APP__/Home/Item/detail?id={$item_e['id']}">
+                            <img src="{$item_e['img']}" width="160" height="160" alt="">
+                            <P class="p_name">{$item_e['itemname']}</P>
+                            <p class="p_price">￥{$item_e['price']}</p>
+                        </a>
+                    </li>
+                </volist>
+            </ul>
+        </div>
+        <!--外设装备主体main区 end-->
+    </main>
+</block>
+
+<block name="js">
+    <script>
+        //分页导航特效
+        $(".brand ul li").eq(0).addClass("curr");
+        $(".brand ul li").hover(function(){
+            index = $(this).index(".brand ul li");
+            $(this).addClass("curr");
+            $(".brand ul li").not($(this)).removeClass("curr");
+
+            $(".main .ul_item").eq(index).show();
+            $(".main .ul_item").not($(".main .ul_item").eq(index)).hide();
+        });
+    </script>
+</block>

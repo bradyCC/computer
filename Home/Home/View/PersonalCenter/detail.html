@@ -1,0 +1,54 @@
+<extend name="PersonalCenter/index"/>
+
+<block name="css">
+    <style>
+        .right .welcome{
+            display: none;
+        }
+    </style>
+</block>
+
+<!--个人中心订单商品详情页面-->
+<block name="main">
+    <div class="right_item">
+        <table>
+            <tr>
+                <th class="in_i">编号</th>
+                <th class="in_n">商品名称</th>
+                <th>商品图片</th>
+                <th class="in_s">商品价格</th>
+                <th class="in_r">商品数量</th>
+                <th class="in_s">合计金额</th>
+                <th class="in_s">确认收货</th>
+                <th class="in_s">评论</th>
+            </tr>
+            <volist name="items" id="item">
+                <tr>
+                    <td>{$i}</td>
+                    <td>{$item['itemname']}</td>
+                    <td><img src="{$item['img']}" alt="" width="100" height="70"></td>
+                    <td>{$item['price']} 元</td>
+                    <td>{$item['num']}</td>
+                    <td>{$item['price']*$item['num']} 元</td>
+                    <td><a href="__APP__/Home/PersonalCenter/con?number={$item['number']}&item_id={$item['item_id']}" class="confirm">{$item['is_confirm']?"已确认":"未确认"}</a></td>
+                    <td><a href="__APP__/Home/PersonalCenter/comment?number={$item['number']}&item_id={$item['item_id']}" class="comment">评论</a></td>
+                </tr>
+            </volist>
+        </table>
+    </div>
+</block>
+
+<block name="js">
+    <script>
+        //我的订单显示
+        $(".left ul li a").eq(2).css({"color":"#f30213","background":"#fff"});
+        //评论前，需确认收货
+        $(".comment").click(function(){
+            h = $(this).parent().prev().children().html();
+            if(h!="已确认"){
+                alert("请确认收货后再评论,谢谢");
+                return false;
+            }
+        });
+    </script>
+</block>

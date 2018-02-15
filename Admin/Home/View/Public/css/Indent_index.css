@@ -1,0 +1,33 @@
+
+/*订单查看样式*/
+table,th{
+    text-align: center;
+}
+table td{
+    line-height: 30px!important;
+}
+.td_num{
+    width: 120px;
+}
+.td_width{
+    width: 50px;
+}
+.panel-footer{
+    height: 50px;
+}
+
+/* 分页按钮样式 */
+.page{
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.first, .end, .next, .prev, .num{
+    color: #fff;
+}
+.current{
+    color: #f0f;
+}
+.button{
+    float: right;
+}

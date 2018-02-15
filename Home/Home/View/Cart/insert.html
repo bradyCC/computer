@@ -1,0 +1,73 @@
+<extend name="Index/index"/>
+
+<block name="css">
+    <style>
+        main{
+            width: 1210px;
+            margin: 15px auto;
+        }
+        /*购物车header区样式*/
+        main .header {
+            height: 30px;
+            line-height: 30px;
+            /*background: #eee;*/
+        }
+        .header .title {
+            font-size: 14px;
+            color: #272822;
+            font-weight: bold;
+            margin-left: 15px;
+        }
+        .header .title a {
+            color: #272822;
+        }
+        .header .title a:hover {
+            color: #f30213;
+        }
+        .header .title b {
+            font-size: 12px;
+        }
+        /*购物车main区样式*/
+        main .main{
+            height: 200px;
+            line-height: 200px;
+            background: #f8f8f8;
+            text-align: center;
+            position: relative;
+        }
+        .main p{
+            font-size: 24px;
+            color: #f30213;
+        }
+        .main a{
+            font-size: 14px;
+            color: #f30213;
+            position: absolute;
+            top: 50px;
+            right: 100px;
+        }
+    </style>
+</block>
+
+<block name="header_advert"></block>
+<block name="header_search"></block>
+
+<!--模板继承-->
+<!--商品加入购物车过度页面 start-->
+<block name="main">
+    <main>
+        <div class="header">
+            <span class="title"><a href="__APP__/Home/Index/index">首页 </a> &gt; <b>购物车</b></span>
+        </div>
+        <div class="main">
+            <p>商品已成功加入购物车，请至购物车页面结算</p>
+            <a href="__APP__/Home/Cart/index">购物车 &gt;&gt;</a>
+        </div>
+    </main>
+</block>
+<!--商品加入购物车过度页面 end-->
+
+<block name="footer_advert"></block>
+<block name="js">
+
+</block>

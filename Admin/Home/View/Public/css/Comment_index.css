@@ -1,0 +1,36 @@
+
+/*评论查看样式*/
+table,th{
+    text-align: center;
+}
+table tr td{
+    vertical-align: middle!important;
+    font-size: 12px;
+    line-height: 20px!important;
+}
+.td_width{
+    width: 50px;
+}
+.td_name{
+    width: 60px;
+}
+.panel-footer{
+    margin-top: -21px;
+    height: 50px;
+}
+
+/* 分页按钮样式 */
+.page{
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.first, .end, .next, .prev, .num{
+    color: #fff;
+}
+.current{
+    color: #f0f;
+}
+.button{
+    float: right;
+}

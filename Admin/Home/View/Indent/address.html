@@ -1,0 +1,71 @@
+<extend name="Index/index"/>
+
+<block name="css">
+    <link rel="stylesheet" href="../Public/bs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="__CSS__/Index_index.css">
+    <style>
+        /*收货地址样式*/
+        table,th{
+            text-align: center;
+        }
+        table td{
+            line-height: 30px!important;
+        }
+        .td_num{
+            width: 120px;
+        }
+        .td_width{
+            width: 50px;
+        }
+        .panel-footer{
+            height: 50px;
+        }
+
+        /* 分页按钮样式 */
+        .page{
+            float: left;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        .first, .end, .next, .prev, .num{
+            color: #fff;
+        }
+        .current{
+            color: #f0f;
+        }
+        .button{
+            float: right;
+        }
+
+    </style>
+</block>
+
+<block name="right">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <div class="panel-title">收货地址</div>
+        </div>
+            <table class="table table-hover table-bordered table-striped">
+                <tr>
+                    <th>编号</th>
+                    <th>姓名</th>
+                    <th>地址</th>
+                    <th>电话</th>
+                    <th>邮箱</th>
+                </tr>
+                <volist name="addrs" id="addr">
+                    <tr>
+                        <td class="td_width">{$i}</td>
+                        <td class="td_num">{$addr['name']}</a></td>
+                        <td>{$addr['address']}</td>
+                        <td>{$addr['phone']}</td>
+                        <td>{$addr['email']}</td>
+                    </tr>
+                </volist>
+            </table>
+        <div class="panel-footer">
+            <!--分页-->
+            <button class="btn btn-info page">{$page}</button>
+        </div>
+    </div>
+</block>

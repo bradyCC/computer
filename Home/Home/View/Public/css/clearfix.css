@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+.clearfix{
+	zoom:1;/*IE浏览器的专用属性，为了兼容老版本IE浏览器*/
+}
+.clearfix:after{
+	content: ".";
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+}

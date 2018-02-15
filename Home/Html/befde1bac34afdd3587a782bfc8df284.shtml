@@ -1,0 +1,1474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    
+    <title>京东(JD.COM)-正品低价、品质保障、配送及时、轻松购物！</title>
+    
+    <!--网站title图标 shortcut icon-->
+    <link rel="shortcut icon" href="/copyjd/Public/images/logo.ico">
+    <!--消除塌陷-->
+    <link rel="stylesheet" href="/copyjd/Home/Home/View/Public/css/clearfix.css">
+    <!--头部header区样式-->
+    <link rel="stylesheet" href="/copyjd/Home/Home/View/Public/css/Index_header.css">
+    <!--模板继承调整主体CSS样式-->
+    
+        <!--主体main区样式-->
+        <link rel="stylesheet" href="/copyjd/Home/Home/View/Public/css/Index_main.css">
+    
+    <!--底部footer区样式-->
+    <link rel="stylesheet" href="/copyjd/Home/Home/View/Public/css/Index_footer.css">
+    <style>
+        /*基准样式*/
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "微软雅黑", "宋体";
+            font-size: 12px;
+        }
+        a {
+            color: #666;
+            text-decoration: none;
+        }
+        body {
+            height: 100%;
+            /*color: #666;*/
+        }
+        ol, ul {
+            list-style: none;
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        /*头部广告advert区样式*/
+        .header_advert {
+            width: 1210px;
+            height: 200px;
+            margin: 0 auto 15px;
+            position: relative;
+        }
+        .header_advert img {
+            display: block;
+            position: absolute;
+
+        }
+
+        /*头部搜索search区样式*/
+        .header_search {
+            width: 1210px;
+            height: 100px;
+            margin: 0 auto 15px;
+            background: #f8f8f8;
+        }
+        .header_search .left {
+            width: 100px;
+            height: 100px;
+            -webkit-border-radius: 100px;
+            -moz-border-radius: 100px;
+            border-radius: 100px;
+            overflow: hidden;
+            margin-left: 75px;
+            float: left;
+        }
+        .header_search .left img {
+            display: block;
+        }
+        .header_search .middle {
+            width: 600px;
+            height: 100px;
+            float: left;
+            margin-left: 150px;
+            position: relative;
+        }
+        .search {
+            width: 540px;
+            height: 32px;
+            border: 3px solid #c00;
+            position: absolute;
+            top: 30px;
+            left: 25px;
+        }
+        .search input[type="text"] {
+            width: 440px;
+            height: 22px;
+            line-height: 22px;
+            padding: 5px;
+            float: left;
+            border: 0;
+        }
+        .search input[type="text"]:focus {
+            outline: none;
+        }
+        .search input[type="submit"] {
+            width: 90px;
+            height: 32px;
+            line-height: 32px;
+            text-align: center;
+            font-size: 16px;
+            color: #fff;
+            background: #c00;
+            cursor: pointer;
+            float: right;
+            border: 0;
+        }
+        .header_search .right {
+            width: 100px;
+            height: 100px;
+            float: right;
+            -webkit-border-radius: 100px;
+            -moz-border-radius: 100px;
+            border-radius: 100px;
+            overflow: hidden;
+            margin-right: 75px;
+        }
+        .header_search .right img {
+            display: block;
+        }
+
+        /*底部广告advert区样式*/
+        .footer_advert {
+            width: 1210px;
+            height: 200px;
+            margin: 0 auto 15px;
+            position: relative;
+        }
+        .footer_advert img {
+            display: block;
+            position: absolute;
+        }
+
+    </style>
+</head>
+<body>
+<!--头部header区 start-->
+<header>
+    <!--头部导航nav区-->
+    <nav>
+        <!--左侧导航-->
+        <ul class="left">
+            <li><img src="/copyjd/Public/images/logo.png" width="30" height="31" alt=""></li>
+            <li><a href="/copyjd/index.php/Home/Index/index">京东首页</a></li>
+            <li><a href="javascript:">济南</a></li>
+        </ul>
+        <!--右侧导航-->
+        <ul class="right">
+            <li><a href="/copyjd/index.php/Home/Login/index" class="red login">请登录</a>
+            </li>
+            <li><a href="/copyjd/index.php/Home/Login/logout" class="logout">退出</a></li>
+            <li><a href="/copyjd/index.php/Home/User/index">免费注册</a></li>
+            <li class="">|</li>
+            <li><a href="/copyjd/index.php/Home/Cart/index">购物车</a></li>
+            <li class="">|</li>
+            <li><a href="/copyjd/index.php/Home/PersonalCenter/indent">我的订单</a></li>
+            <li class="">|</li>
+            <li><a href="/copyjd/index.php/Home/PersonalCenter/index">个人中心</a></li>
+            <li class="">|</li>
+            <li><a href="/copyjd/index.php/Home/PersonalCenter/server">客户服务</a></li>
+        </ul>
+    </nav>
+</header>
+<!--头部header区 end-->
+
+<!--模板继承调整头部广告advert区-->
+
+    <!--头部广告advert区 start-->
+    <div class="header_advert">
+        <img src="/copyjd/Uploads/2018-01-31/5a7154fb959f8.jpg" width="1210" height="200" alt="">
+    </div>
+    <!--头部广告advert区 end-->
+
+
+<!--模板继承调整头部搜索search区-->
+
+    <!--头部搜索search区 start-->
+    <!--<div class="header_search">-->
+        <!--<div class="left">-->
+            <!--<img src="/copyjd/Public/images/logo.jpg" alt="" width="100px" height="100px">-->
+        <!--</div>-->
+        <!--<div class="middle">-->
+            <!--<div class="search">-->
+                <!--<form action="#" method="post">-->
+                    <!--<input type="text" placeholder="Apple苹果 MacBook pro">-->
+                    <!--<input type="submit" value="搜索">-->
+                <!--</form>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="right">-->
+            <!--<img src="/copyjd/Public/images/logo.jpg" alt="" width="100px" height="100px">-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--头部搜索search区 end-->
+
+
+<!--模板继承调整主体main区-->
+
+    <!--主体main区 start-->
+    <main>
+        <!--电脑整机complete区 start-->
+        <div class="complete">
+            <div class="header">
+                <span class="title">1F 电脑整机</span>
+                <span class="sub_title">狠有新机 好品如潮</span>
+                <a href="/copyjd/index.php/Home/Class/complete" class="info">更多 &gt;&gt;</a>
+            </div>
+            <div class="main">
+                <div class="left">
+                    <div class="img">
+                        <a href="javascript:">
+                            <img src="/copyjd/Home/Home/View/Public/images/main/complete/com_left.jpg" width="243" height="538" alt="">
+                        </a>
+                    </div>
+                    <div class="hot_list">
+                        <b></b>
+                        <h4>热门关注</h4>
+                        <a href="javascript:">小米Air带独显的轻薄本</a>
+                        <a href="javascript:">LG重新定义-超轻薄笔记本</a>
+                        <a href="javascript:">雷神Dino新概念游戏本</a>
+                        <a href="javascript:">戴尔“吃鸡”台式机新品上市</a>
+                    </div>
+                </div>
+                <div class="middle">
+                    <ul class="nav_list clearfix">
+                        <li class="nav_item">热门</li>
+                        <li class="nav_item">笔记本</li>
+                        <li class="nav_item">台式机</li>
+                        <li class="nav_item">游戏本</li>
+                        <li class="nav_item">一体机</li>
+                    </ul>
+                    <div class="tab_cont">
+                        <div class="cont_item">
+                            <div class="banner_top">
+                                <ul class="banner_list">
+                                    <li class="list_li">
+                                        <a href="javascript:">
+                                            <img src="/copyjd/Home/Home/View/Public/images/main/complete/top/banner_1.jpg" width="725"
+                                                 height="251" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="list_li">
+                                        <a href="javascript:">
+                                            <img src="/copyjd/Home/Home/View/Public/images/main/complete/top/banner_2.jpg" width="725"
+                                                 height="251" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="list_li">
+                                        <a href="javascript:">
+                                            <img src="/copyjd/Home/Home/View/Public/images/main/complete/top/banner_3.jpg" width="725"
+                                                 height="251" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="list_li">
+                                        <a href="javascript:">
+                                            <img src="/copyjd/Home/Home/View/Public/images/main/complete/top/banner_1.jpg" width="725"
+                                                 height="251" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="banner_nav">
+                                    <li class="nav_li"></li>
+                                    <li class="nav_li"></li>
+                                    <li class="nav_li"></li>
+                                </ul>
+                                <!--<a class="prev" href="javascript:">&lt;</a>-->
+                                <!--<a class="next" href="javascript:">&gt;</a>-->
+                            </div>
+                            <ul class="banner_bottom clearfix">
+                                <li class="banner_img">
+                                    <a href="javascript:">
+                                        <img src="/copyjd/Home/Home/View/Public/images/main/complete/bottom/banner_left.jpg" width="241"
+                                             height="250" alt="">
+                                    </a>
+                                </li>
+                                <li class="banner_img">
+                                    <a href="javascript:">
+                                        <img src="/copyjd/Home/Home/View/Public/images/main/complete/bottom/banner_middle.jpg" width="241"
+                                             height="250" alt="">
+                                    </a>
+                                </li>
+                                <li class="banner_img">
+                                    <a href="javascript:">
+                                        <img src="/copyjd/Home/Home/View/Public/images/main/complete/bottom/banner_right.jpg" width="241"
+                                             height="250" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="cont_item">
+                            <ul>
+                                <li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=1">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a714531cce68.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">小米(MI)Air 13.3英寸全金属轻薄笔记本电脑(i5-7200U 8G 256G固态硬盘 全高清屏 背光键盘 Win10)银</P>
+                                            <p class="p_price">￥4599</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=2">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a7145a5402e9.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">小米(MI)Air 13.3英寸全金属轻薄笔记本(i5-7200U 8G 256G PCle SSD MX150 2G独显 FHD 指纹识别 Win10）银</P>
+                                            <p class="p_price">￥4999</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=3">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a7145f81f76d.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">小米(MI)Pro 15.6英寸金属轻薄笔记本(i7-8550U 16G 256GSSD MX150 2G独显 FHD 指纹识别 预装office)深空灰</P>
+                                            <p class="p_price">￥5999</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=7">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a714fefa2b28.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">小米(MI) Air 12.5英寸全金属超轻薄笔记本电脑(Core M-7Y30 4G 128G固态硬盘 全高清屏 背光键盘 Win10)银</P>
+                                            <p class="p_price">￥3999</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=8">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a715017ccb5b.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">小米（MI） （MI）笔记本电脑Air 超薄便携 商务办公 手提上网本 【12.5英寸流量版】M3 4G 128G银</P>
+                                            <p class="p_price">￥3399</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=12">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a7169d16610c" width="160" height="160" alt="">
+                                            <P class="p_name">小米（MI） 小米笔记本电脑air 手提电脑轻薄本 小米笔记本-银色 13.3英寸7代独显指纹i7版</P>
+                                            <p class="p_price">￥5599</p>
+                                        </a>
+                                    </li>                            </ul>
+                        </div>
+                        <div class="cont_item">
+                            <ul>
+                                <li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=4">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71462302432.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">Apple MacBook Air 13.3英寸笔记本电脑 银色(2017新款Core i5 处理器/8GB内存/256GB闪存 MQD42CH/A)</P>
+                                            <p class="p_price">￥7799</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=5">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71465998245.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">Apple MacBook Pro 13.3英寸笔记本电脑 深空灰色（2017新款Core i5处理器/8GB内存/256GB硬盘 MPXT2CH/A）</P>
+                                            <p class="p_price">￥11999</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=6">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71469483f10.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">Apple MacBook Pro 15.4英寸笔记本电脑 银色(Core i7 处理器/16GB内存/256GB SSD闪存/Retina屏 MJLQ2CH/A)</P>
+                                            <p class="p_price">￥13999</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=9">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71508b418fb.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">苹果（Apple） Apple MacBook Air 13.3英寸笔记本电脑 2017款 MQD32CH/A Core i5/8G内存/128G闪存</P>
+                                            <p class="p_price">￥5298</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=10">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a716d5f93590.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">APPLE苹果 【京东配送 送豪礼】MacBook Air 13.3英寸笔记本电脑 2017年新款 MQD32CH/A i5+8GB内存+128GB闪存【D32】</P>
+                                            <p class="p_price">￥5298</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=11">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a7169a1cfcac.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">苹果（Apple） Apple MacBook Pro 15.4英寸笔记本 MLW82CH/A银色512G 2016款</P>
+                                            <p class="p_price">￥15699</p>
+                                        </a>
+                                    </li>                            </ul>
+                        </div>
+                        <div class="cont_item">
+                            <ul>
+                                <li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=37">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71b922dd6e9.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">戴尔DELL灵越游匣Master15-R4645B 15.6英寸游戏笔记本电脑(i5-7300HQ 8G 128GSSD+1T GTX1050Ti 4G独显)黑</P>
+                                            <p class="p_price">￥6799</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=38">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71b974bcc0b.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">华硕(ASUS) 飞行堡垒三代FX60VM GTX1060 15.6英寸游戏笔记本电脑(i7-6700HQ 8G 128GSSD+1T FHD)黑色</P>
+                                            <p class="p_price">￥4799</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=39">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71b999e29b8.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">惠普(HP)暗影精灵3代 GTX1050Ti 15.6英寸游戏笔记本电脑（i7-7700HQ 8G 128GSSD+1T 4G独显 120Hz IPS）</P>
+                                            <p class="p_price">￥7699</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=40">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71b9c264fff.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">联想(Lenovo)拯救者R720 15.6英寸大屏游戏笔记本电脑(i5-7300HQ 8G 1T+128G SSD GTX1050Ti 4G IPS 黑金)</P>
+                                            <p class="p_price">￥6599</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=41">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71b9ee66153.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">联想（ThinkPad）黑侠E570 GTX（1NCD）游戏笔记本（i5-7200U 4G 500G+128G SSD GTX950M 2G独显 FHD Win10）</P>
+                                            <p class="p_price">￥7999</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=42">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71ba0b3e6cf.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">神舟（HASEE）战神Z7-KP7GT GTX1060 6G 15.6英寸游戏本笔记本电脑(i7-7700HQ 8G 1T+128G SSD 1080P)黑色</P>
+                                            <p class="p_price">￥6599</p>
+                                        </a>
+                                    </li>                            </ul>
+                        </div>
+                        <div class="cont_item">
+                            <ul>
+                                <li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=43">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71c6e4200ad.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">戴尔(DELL)成就AIO 23.8英寸防眩光一体机电脑(i7-7700T 8G 128GSSD+1T 4G独显 三年上门 无线)</P>
+                                            <p class="p_price">￥8999</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=44">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71c715ba6c9.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">宏碁(Acer) 蜂鸟C24-700S 23.8英寸轻薄一体机台式电脑（i5-7200U 8G 1T R5 2G独显 win10 键鼠 全高清)</P>
+                                            <p class="p_price">￥6879</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=45">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71c739da499.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">惠普（HP）小欧 24-g216 23.8英寸高清一体机电脑（i5-7200U 8G 1T 2G独显 无线键鼠 三年上门）</P>
+                                            <p class="p_price">￥7589</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=46">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71c75ec2bdf.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">AOC AIO734 21.5英寸超薄高清一体机电脑(升级版Intel四核J3160 4G 120G固态 双频WiFi 三年联保 送时尚键鼠)</P>
+                                            <p class="p_price">￥6789</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=47">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71c78ab61d6.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">联想（Lenovo）AIO 520 致美一体机21.5英寸（G3930T 4G 1T 集显 WIFI 蓝牙 三年上门 ）黑</P>
+                                            <p class="p_price">￥6546</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=48">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71c7af14388.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">联想（Lenovo）AIO 520 致美一体机23.8英寸（I3-6006U 4G 1T R530 2G显卡 三年上门）银</P>
+                                            <p class="p_price">￥7654</p>
+                                        </a>
+                                    </li>                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <ul class="rank_nav clearfix">
+                        <li class="rank_item">热卖排行榜</li>
+                        <li class="rank_item">游戏本排行榜</li>
+                    </ul>
+                    <ul class="rank_cont">
+                        <li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=1">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a714531cce68.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">小米(MI)Air 13.3英寸全金属轻薄笔记本电脑(i5-7200U 8G 256G固态硬盘 全高清屏 背光键盘 Win10)银</p>
+                                        <p class="p_price">￥4599</p>
+                                    </div>
+                                </a>
+                            </li><li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=2">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a7145a5402e9.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">小米(MI)Air 13.3英寸全金属轻薄笔记本(i5-7200U 8G 256G PCle SSD MX150 2G独显 FHD 指纹识别 Win10）银</p>
+                                        <p class="p_price">￥4999</p>
+                                    </div>
+                                </a>
+                            </li><li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=3">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a7145f81f76d.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">小米(MI)Pro 15.6英寸金属轻薄笔记本(i7-8550U 16G 256GSSD MX150 2G独显 FHD 指纹识别 预装office)深空灰</p>
+                                        <p class="p_price">￥5999</p>
+                                    </div>
+                                </a>
+                            </li><li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=7">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a714fefa2b28.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">小米(MI) Air 12.5英寸全金属超轻薄笔记本电脑(Core M-7Y30 4G 128G固态硬盘 全高清屏 背光键盘 Win10)银</p>
+                                        <p class="p_price">￥3999</p>
+                                    </div>
+                                </a>
+                            </li><li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=8">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a715017ccb5b.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">小米（MI） （MI）笔记本电脑Air 超薄便携 商务办公 手提上网本 【12.5英寸流量版】M3 4G 128G银</p>
+                                        <p class="p_price">￥3399</p>
+                                    </div>
+                                </a>
+                            </li><li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=12">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a7169d16610c" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">小米（MI） 小米笔记本电脑air 手提电脑轻薄本 小米笔记本-银色 13.3英寸7代独显指纹i7版</p>
+                                        <p class="p_price">￥5599</p>
+                                    </div>
+                                </a>
+                            </li>                    </ul>
+                    <ul class="rank_cont">
+                        <li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=4">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a71462302432.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">Apple MacBook Air 13.3英寸笔记本电脑 银色(2017新款Core i5 处理器/8GB内存/256GB闪存 MQD42CH/A)</p>
+                                        <p class="p_price">￥7799</p>
+                                    </div>
+                                </a>
+                            </li><li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=5">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a71465998245.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">Apple MacBook Pro 13.3英寸笔记本电脑 深空灰色（2017新款Core i5处理器/8GB内存/256GB硬盘 MPXT2CH/A）</p>
+                                        <p class="p_price">￥11999</p>
+                                    </div>
+                                </a>
+                            </li><li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=6">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a71469483f10.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">Apple MacBook Pro 15.4英寸笔记本电脑 银色(Core i7 处理器/16GB内存/256GB SSD闪存/Retina屏 MJLQ2CH/A)</p>
+                                        <p class="p_price">￥13999</p>
+                                    </div>
+                                </a>
+                            </li><li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=9">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a71508b418fb.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">苹果（Apple） Apple MacBook Air 13.3英寸笔记本电脑 2017款 MQD32CH/A Core i5/8G内存/128G闪存</p>
+                                        <p class="p_price">￥5298</p>
+                                    </div>
+                                </a>
+                            </li><li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=10">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a716d5f93590.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">APPLE苹果 【京东配送 送豪礼】MacBook Air 13.3英寸笔记本电脑 2017年新款 MQD32CH/A i5+8GB内存+128GB闪存【D32】</p>
+                                        <p class="p_price">￥5298</p>
+                                    </div>
+                                </a>
+                            </li><li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=11">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a7169a1cfcac.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">苹果（Apple） Apple MacBook Pro 15.4英寸笔记本 MLW82CH/A银色512G 2016款</p>
+                                        <p class="p_price">￥15699</p>
+                                    </div>
+                                </a>
+                            </li>                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--电脑整机complete区 end-->
+
+        <!--电脑配件parts区 start-->
+        <div class="parts">
+            <div class="header">
+                <span class="title">2F 电脑配件</span>
+                <span class="sub_title">Do it Yourself~装机有“套路”</span>
+                <a href="/copyjd/index.php/Home/Class/parts" class="info">更多 &gt;&gt;</a>
+            </div>
+            <div class="border"></div>
+            <div class="main">
+                <div class="left">
+                    <div class="img">
+                        <a href="javascript:">
+                            <img src="/copyjd/Home/Home/View/Public/images/main/parts/pa_left.jpg" width="243" height="538" alt="">
+                        </a>
+                    </div>
+                    <div class="hot_list">
+                        <b></b>
+                        <h4>热门关注</h4>
+                        <a href="javascript:">电竞装备大放价</a>
+                        <a href="javascript:">“吃鸡”装备</a>
+                        <a href="javascript:">超神利器</a>
+                    </div>
+                </div>
+                <div class="middle">
+                    <ul class="nav_list">
+                        <li class="nav_item curr">热门</li>
+                        <li class="nav_item">核心配件</li>
+                        <li class="nav_item">主板显示</li>
+                        <li class="nav_item">显示器</li>
+                        <li class="nav_item">机箱电源</li>
+                    </ul>
+                    <div class="tab_cont">
+                        <div class="cont_item">
+                            <div class="banner_top">
+                                <ul class="banner_list">
+                                    <li class="list_li">
+                                        <a href="javascript:">
+                                            <img src="/copyjd/Home/Home/View/Public/images/main/parts/top/banner_1.jpg" width="725"
+                                                 height="251" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="list_li">
+                                        <a href="javascript:">
+                                            <img src="/copyjd/Home/Home/View/Public/images/main/parts/top/banner_2.jpg" width="725"
+                                                 height="251" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="list_li">
+                                        <a href="javascript:">
+                                            <img src="/copyjd/Home/Home/View/Public/images/main/parts/top/banner_3.jpg" width="725"
+                                                 height="251" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="list_li">
+                                        <a href="javascript:">
+                                            <img src="/copyjd/Home/Home/View/Public/images/main/parts/top/banner_1.jpg" width="725"
+                                                 height="251" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="banner_nav">
+                                    <li class="nav_li"></li>
+                                    <li class="nav_li"></li>
+                                    <li class="nav_li"></li>
+                                </ul>
+                                <!--<a class="prev" href="javascript:">&lt;</a>-->
+                                <!--<a class="next" href="javascript:">&gt;</a>-->
+                            </div>
+                            <ul class="banner_bottom clearfix">
+                                <li class="banner_img">
+                                    <a href="javascript:">
+                                        <img src="/copyjd/Home/Home/View/Public/images/main/parts/bottom/banner_left.jpg" width="241"
+                                             height="250" alt="">
+                                    </a>
+                                </li>
+                                <li class="banner_img">
+                                    <a href="javascript:">
+                                        <img src="/copyjd/Home/Home/View/Public/images/main/parts/bottom/banner_middle.jpg" width="241"
+                                             height="250" alt="">
+                                    </a>
+                                </li>
+                                <li class="banner_img">
+                                    <a href="javascript:">
+                                        <img src="/copyjd/Home/Home/View/Public/images/main/parts/bottom/banner_right.jpg" width="241"
+                                             height="250" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="cont_item">
+                            <ul>
+                                <li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=13">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71a75fbfbc6.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">戴尔（DELL）U2518DR 25英寸2K分辨率四边微边框旋转升降IPS屏 HDR 爱眼护眼滤蓝光吃鸡显示器（带HDMI线）</P>
+                                            <p class="p_price">￥2000</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=14">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71a7d9aa767.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">三星（SAMSUNG）31.5英寸1800R曲率 广视角可壁挂曲面 电脑显示器 C32F391FWC（HDMI/DP双接口）</P>
+                                            <p class="p_price">￥2000</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=15">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71a8134a972.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">三星（SAMSUNG）34英寸超宽屏 1800R高分辨率曲面 低蓝光广视角 电脑显示器 C34H890WJC(HDMI/DP双接口)</P>
+                                            <p class="p_price">￥2000</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=16">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71a83a4d6bd.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">三星（SAMSUNG）U28H750UQC 27.9英寸4K高分量子点技术液晶显示器</P>
+                                            <p class="p_price">￥2000</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=17">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71a85ee134e.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">AOC I2490PXZ 23.8英寸 AH-IPS广视角 109%NTSC广色域 1.5mm窄边框 全接口 低蓝光不闪 可升降旋转 十环认证电脑显示器</P>
+                                            <p class="p_price">￥2000</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=18">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71a863b8095.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">AOC Q2490PXQ 23.8英寸 IPS 2K 低蓝光不闪 双HDMI接口 人体工学支架可升降液晶电脑显示器</P>
+                                            <p class="p_price">￥2000</p>
+                                        </a>
+                                    </li>                            </ul>
+                        </div>
+                        <div class="cont_item">
+                            <ul>
+                                <li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=19">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71aa0ba9849.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">酷冷至尊(CoolerMaster)MasterBox Lite 5+(睿+）台式电脑中塔机箱(ATX主板/前镜面板/玻璃侧板/独立电源仓)</P>
+                                            <p class="p_price">￥299</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=20">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71aa4094c86.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">酷冷至尊(CoolerMaster)毁灭者经典U3升级版 中塔电脑主机机箱(支持ATX主板/USB3.0/电源下置/LED风扇) 黑色</P>
+                                            <p class="p_price">￥299</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=21">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71aa5f3c341.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">酷冷至尊（CoolerMaster）额定550W V550游戏电源（80PLUS金牌/全模组/全日系电容/短机身/可背线/质保五年）</P>
+                                            <p class="p_price">￥299</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=22">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71aa84cef3e.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">安钛克（Antec）P110 侧透版 中塔机箱（RGB/钢化玻璃全侧透/VGA显卡支架/1MM钢板/支持VR/稳稳吃鸡）</P>
+                                            <p class="p_price">￥199</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=23">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71aab27b3f8.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">爱国者（aigo）月光宝盒破晓 黑色 钢化玻璃铝机箱（支持ATX大板/E-ATX服务器主板/支持280水冷排/支持14CM风扇）</P>
+                                            <p class="p_price">￥259</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=24">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71aad2d3c12.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">先马（SAMA）黑洞3 黑色 全塔机箱 （支持ATX主板/静音/宽大箱体/标配3把风扇/调速器/读卡器/ATX-Ⅲ结构）</P>
+                                            <p class="p_price">￥279</p>
+                                        </a>
+                                    </li>                            </ul>
+                        </div>
+                        <div class="cont_item">
+                            <ul>
+                                <li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=13">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71a75fbfbc6.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">戴尔（DELL）U2518DR 25英寸2K分辨率四边微边框旋转升降IPS屏 HDR 爱眼护眼滤蓝光吃鸡显示器（带HDMI线）</P>
+                                            <p class="p_price">￥2000</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=14">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71a7d9aa767.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">三星（SAMSUNG）31.5英寸1800R曲率 广视角可壁挂曲面 电脑显示器 C32F391FWC（HDMI/DP双接口）</P>
+                                            <p class="p_price">￥2000</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=15">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71a8134a972.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">三星（SAMSUNG）34英寸超宽屏 1800R高分辨率曲面 低蓝光广视角 电脑显示器 C34H890WJC(HDMI/DP双接口)</P>
+                                            <p class="p_price">￥2000</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=16">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71a83a4d6bd.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">三星（SAMSUNG）U28H750UQC 27.9英寸4K高分量子点技术液晶显示器</P>
+                                            <p class="p_price">￥2000</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=17">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71a85ee134e.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">AOC I2490PXZ 23.8英寸 AH-IPS广视角 109%NTSC广色域 1.5mm窄边框 全接口 低蓝光不闪 可升降旋转 十环认证电脑显示器</P>
+                                            <p class="p_price">￥2000</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=18">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71a863b8095.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">AOC Q2490PXQ 23.8英寸 IPS 2K 低蓝光不闪 双HDMI接口 人体工学支架可升降液晶电脑显示器</P>
+                                            <p class="p_price">￥2000</p>
+                                        </a>
+                                    </li>                            </ul>
+                        </div>
+                        <div class="cont_item">
+                            <ul>
+                                <li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=19">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71aa0ba9849.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">酷冷至尊(CoolerMaster)MasterBox Lite 5+(睿+）台式电脑中塔机箱(ATX主板/前镜面板/玻璃侧板/独立电源仓)</P>
+                                            <p class="p_price">￥299</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=20">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71aa4094c86.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">酷冷至尊(CoolerMaster)毁灭者经典U3升级版 中塔电脑主机机箱(支持ATX主板/USB3.0/电源下置/LED风扇) 黑色</P>
+                                            <p class="p_price">￥299</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=21">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71aa5f3c341.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">酷冷至尊（CoolerMaster）额定550W V550游戏电源（80PLUS金牌/全模组/全日系电容/短机身/可背线/质保五年）</P>
+                                            <p class="p_price">￥299</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=22">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71aa84cef3e.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">安钛克（Antec）P110 侧透版 中塔机箱（RGB/钢化玻璃全侧透/VGA显卡支架/1MM钢板/支持VR/稳稳吃鸡）</P>
+                                            <p class="p_price">￥199</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=23">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71aab27b3f8.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">爱国者（aigo）月光宝盒破晓 黑色 钢化玻璃铝机箱（支持ATX大板/E-ATX服务器主板/支持280水冷排/支持14CM风扇）</P>
+                                            <p class="p_price">￥259</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=24">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71aad2d3c12.jpg" width="160" height="160" alt="">
+                                            <P class="p_name">先马（SAMA）黑洞3 黑色 全塔机箱 （支持ATX主板/静音/宽大箱体/标配3把风扇/调速器/读卡器/ATX-Ⅲ结构）</P>
+                                            <p class="p_price">￥279</p>
+                                        </a>
+                                    </li>                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <ul class="rank_nav clearfix">
+                        <li class="rank_item">热卖排行榜</li>
+                        <li class="rank_item">显示器排行榜</li>
+                    </ul>
+                    <ul class="rank_cont">
+                        <li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=13">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a71a75fbfbc6.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">戴尔（DELL）U2518DR 25英寸2K分辨率四边微边框旋转升降IPS屏 HDR 爱眼护眼滤蓝光吃鸡显示器（带HDMI线）</p>
+                                        <p class="p_price">￥2000</p>
+                                    </div>
+                                </a>
+                            </li><li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=14">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a71a7d9aa767.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">三星（SAMSUNG）31.5英寸1800R曲率 广视角可壁挂曲面 电脑显示器 C32F391FWC（HDMI/DP双接口）</p>
+                                        <p class="p_price">￥2000</p>
+                                    </div>
+                                </a>
+                            </li><li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=15">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a71a8134a972.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">三星（SAMSUNG）34英寸超宽屏 1800R高分辨率曲面 低蓝光广视角 电脑显示器 C34H890WJC(HDMI/DP双接口)</p>
+                                        <p class="p_price">￥2000</p>
+                                    </div>
+                                </a>
+                            </li><li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=16">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a71a83a4d6bd.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">三星（SAMSUNG）U28H750UQC 27.9英寸4K高分量子点技术液晶显示器</p>
+                                        <p class="p_price">￥2000</p>
+                                    </div>
+                                </a>
+                            </li><li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=17">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a71a85ee134e.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">AOC I2490PXZ 23.8英寸 AH-IPS广视角 109%NTSC广色域 1.5mm窄边框 全接口 低蓝光不闪 可升降旋转 十环认证电脑显示器</p>
+                                        <p class="p_price">￥2000</p>
+                                    </div>
+                                </a>
+                            </li><li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=18">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a71a863b8095.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">AOC Q2490PXQ 23.8英寸 IPS 2K 低蓝光不闪 双HDMI接口 人体工学支架可升降液晶电脑显示器</p>
+                                        <p class="p_price">￥2000</p>
+                                    </div>
+                                </a>
+                            </li>                    </ul>
+                    <ul class="rank_cont">
+                        <li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=19">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a71aa0ba9849.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">酷冷至尊(CoolerMaster)MasterBox Lite 5+(睿+）台式电脑中塔机箱(ATX主板/前镜面板/玻璃侧板/独立电源仓)</p>
+                                        <p class="p_price">￥299</p>
+                                    </div>
+                                </a>
+                            </li><li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=20">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a71aa4094c86.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">酷冷至尊(CoolerMaster)毁灭者经典U3升级版 中塔电脑主机机箱(支持ATX主板/USB3.0/电源下置/LED风扇) 黑色</p>
+                                        <p class="p_price">￥299</p>
+                                    </div>
+                                </a>
+                            </li><li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=21">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a71aa5f3c341.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">酷冷至尊（CoolerMaster）额定550W V550游戏电源（80PLUS金牌/全模组/全日系电容/短机身/可背线/质保五年）</p>
+                                        <p class="p_price">￥299</p>
+                                    </div>
+                                </a>
+                            </li><li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=22">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a71aa84cef3e.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">安钛克（Antec）P110 侧透版 中塔机箱（RGB/钢化玻璃全侧透/VGA显卡支架/1MM钢板/支持VR/稳稳吃鸡）</p>
+                                        <p class="p_price">￥199</p>
+                                    </div>
+                                </a>
+                            </li><li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=23">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a71aab27b3f8.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">爱国者（aigo）月光宝盒破晓 黑色 钢化玻璃铝机箱（支持ATX大板/E-ATX服务器主板/支持280水冷排/支持14CM风扇）</p>
+                                        <p class="p_price">￥259</p>
+                                    </div>
+                                </a>
+                            </li><li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=24">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a71aad2d3c12.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">先马（SAMA）黑洞3 黑色 全塔机箱 （支持ATX主板/静音/宽大箱体/标配3把风扇/调速器/读卡器/ATX-Ⅲ结构）</p>
+                                        <p class="p_price">￥279</p>
+                                    </div>
+                                </a>
+                            </li>                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--电脑配件parts区 end-->
+
+        <!--外设装备usb区 start-->
+        <div class="usb">
+            <div class="header">
+                <span class="title">3F 外设装备</span>
+                <span class="sub_title">各门各派 风格好货！</span>
+                <a href="/copyjd/index.php/Home/Class/usb" class="info">更多 &gt;&gt;</a>
+            </div>
+            <div class="border"></div>
+            <div class="main">
+                <div class="left">
+                    <div class="img">
+                        <a href="javascript:">
+                            <img src="/copyjd/Home/Home/View/Public/images/main/usb/usb_left.jpg" width="243" height="538" alt="">
+                        </a>
+                    </div>
+                    <div class="hot_list">
+                        <b></b>
+                        <h4>热门关注</h4>
+                        <a href="javascript:">游戏设备0元试用</a>
+                        <a href="javascript:">雷柏鼠标新品上市 京东JOY联名款首发</a>
+                        <a href="javascript:">金士顿限量版狗年纪念U盘</a>
+                        <a href="javascript:">达尔优机械键盘低至99元</a>
+                    </div>
+                </div>
+                <div class="middle">
+                    <ul class="nav_list">
+                        <li class="nav_item curr">热门</li>
+                        <li class="nav_item">键盘</li>
+                        <li class="nav_item">鼠标</li>
+                        <li class="nav_item">U盘</li>
+                        <li class="nav_item">移动硬盘</li>
+                    </ul>
+                    <div class="tab_cont">
+                        <div class="cont_item">
+                            <div class="banner_top">
+                                <ul class="banner_list">
+                                    <li class="list_li">
+                                        <a href="javascript:">
+                                            <img src="/copyjd/Home/Home/View/Public/images/main/usb/top/banner_1.jpg" width="725"
+                                                 height="251" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="list_li">
+                                        <a href="javascript:">
+                                            <img src="/copyjd/Home/Home/View/Public/images/main/usb/top/banner_2.jpg" width="725"
+                                                 height="251" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="list_li">
+                                        <a href="javascript:">
+                                            <img src="/copyjd/Home/Home/View/Public/images/main/usb/top/banner_3.jpg" width="725"
+                                                 height="251" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="list_li">
+                                        <a href="javascript:">
+                                            <img src="/copyjd/Home/Home/View/Public/images/main/usb/top/banner_1.jpg" width="725"
+                                                 height="251" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="banner_nav">
+                                    <li class="nav_li"></li>
+                                    <li class="nav_li"></li>
+                                    <li class="nav_li"></li>
+                                </ul>
+                                <!--<a class="prev" href="javascript:">&lt;</a>-->
+                                <!--<a class="next" href="javascript:">&gt;</a>-->
+                            </div>
+                            <ul class="banner_bottom clearfix">
+                                <li class="banner_img">
+                                    <a href="javascript:">
+                                        <img src="/copyjd/Home/Home/View/Public/images/main/usb/bottom/banner_left.jpg" width="241"
+                                             height="250" alt="">
+                                    </a>
+                                </li>
+                                <li class="banner_img">
+                                    <a href="javascript:">
+                                        <img src="/copyjd/Home/Home/View/Public/images/main/usb/bottom/banner_middle.jpg" width="241"
+                                             height="250" alt="">
+                                    </a>
+                                </li>
+                                <li class="banner_img">
+                                    <a href="javascript:">
+                                        <img src="/copyjd/Home/Home/View/Public/images/main/usb/bottom/banner_right.jpg" width="241"
+                                             height="250" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="cont_item">
+                            <ul>
+                                <li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=25">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71b091ea790.jpg" width="160" height="160"
+                                                 alt="">
+                                            <P class="p_name">达尔优（dareu）108键机械合金版游戏背光机械键盘 黑银色 黑轴 绝地求生吃鸡利器</P>
+                                            <p class="p_price">￥199</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=26">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71b0c41025c.jpg" width="160" height="160"
+                                                 alt="">
+                                            <P class="p_name">黑爵（AJAZZ）刺客Ⅱ合金机械键盘AK35i 曜石黑 黑轴白光 游戏 背光 办公 电脑 笔记本 吃鸡键盘</P>
+                                            <p class="p_price">￥299</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=27">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71b0ecd2c45.jpg" width="160" height="160"
+                                                 alt="">
+                                            <P class="p_name">雷柏（Rapoo） V500PRO 混光机械键盘 游戏键盘 吃鸡键盘 背光键盘 电脑键盘 笔记本键盘 黑色 黑轴</P>
+                                            <p class="p_price">￥379</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=28">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71b112ca415.jpg" width="160" height="160"
+                                                 alt="">
+                                            <P class="p_name">雷蛇（Razer）黑寡妇蜘蛛幻彩版V2 RGB游戏机械键盘 黑色绿轴 绝地求生吃鸡键盘</P>
+                                            <p class="p_price">￥369</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=29">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71b13bdf081.jpg" width="160" height="160"
+                                                 alt="">
+                                            <P class="p_name">樱桃（Cherry）MX-Board 2.0 G80-3801京东专供版 游戏办公机械键盘 黑色黑轴</P>
+                                            <p class="p_price">￥269</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=30">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71b15c3c2e5.jpg" width="160" height="160"
+                                                 alt="">
+                                            <P class="p_name">ikbc c87 樱桃轴机械键盘 87键原厂Cherry轴 白色 红轴 游戏键盘 绝地求生 吃鸡键盘</P>
+                                            <p class="p_price">￥399</p>
+                                        </a>
+                                    </li>                            </ul>
+                        </div>
+                        <div class="cont_item">
+                            <ul>
+                                <li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=31">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71b28ba1970.jpg" width="160" height="160"
+                                                 alt="">
+                                            <P class="p_name">雷蛇（Razer）Basilisk巴塞利斯蛇 RGB幻彩 有线游戏鼠标 5G电竞鼠标 黑色 吃鸡蛇 绝地求生鼠标</P>
+                                            <p class="p_price">￥359</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=32">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71b2bda67bc.jpg" width="160" height="160"
+                                                 alt="">
+                                            <P class="p_name">赛睿（SteelSeries）Sensei310 游戏鼠标 绝地求生吃鸡利器 一比一电竞传感器12000DPI</P>
+                                            <p class="p_price">￥249</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=33">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71b2e83b428.jpg" width="160" height="160"
+                                                 alt="">
+                                            <P class="p_name">微软（Microsoft）IE3.0鼠标 蓝影增强版鼠标</P>
+                                            <p class="p_price">￥158</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=34">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71b30fd3203.jpg" width="160" height="160"
+                                                 alt="">
+                                            <P class="p_name">罗技（Logitech）G300s 角色扮演网游光电鼠标</P>
+                                            <p class="p_price">￥499</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=35">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71b333a370f.jpg" width="160" height="160"
+                                                 alt="">
+                                            <P class="p_name">罗技（Logitech）G403 游戏鼠标 RGB鼠标 吃鸡鼠标 绝地求生 12000DPI</P>
+                                            <p class="p_price">￥129</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=36">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71b35b341e9.jpg" width="160" height="160"
+                                                 alt="">
+                                            <P class="p_name">罗技（Logitech）G603 LIGHTSPEED 无线游戏鼠标 无线鼠标 吃鸡鼠标 绝地求生</P>
+                                            <p class="p_price">￥239</p>
+                                        </a>
+                                    </li>                            </ul>
+                        </div>
+                        <div class="cont_item">
+                            <ul>
+                                <li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=25">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71b091ea790.jpg" width="160" height="160"
+                                                 alt="">
+                                            <P class="p_name">达尔优（dareu）108键机械合金版游戏背光机械键盘 黑银色 黑轴 绝地求生吃鸡利器</P>
+                                            <p class="p_price">￥199</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=26">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71b0c41025c.jpg" width="160" height="160"
+                                                 alt="">
+                                            <P class="p_name">黑爵（AJAZZ）刺客Ⅱ合金机械键盘AK35i 曜石黑 黑轴白光 游戏 背光 办公 电脑 笔记本 吃鸡键盘</P>
+                                            <p class="p_price">￥299</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=27">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71b0ecd2c45.jpg" width="160" height="160"
+                                                 alt="">
+                                            <P class="p_name">雷柏（Rapoo） V500PRO 混光机械键盘 游戏键盘 吃鸡键盘 背光键盘 电脑键盘 笔记本键盘 黑色 黑轴</P>
+                                            <p class="p_price">￥379</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=28">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71b112ca415.jpg" width="160" height="160"
+                                                 alt="">
+                                            <P class="p_name">雷蛇（Razer）黑寡妇蜘蛛幻彩版V2 RGB游戏机械键盘 黑色绿轴 绝地求生吃鸡键盘</P>
+                                            <p class="p_price">￥369</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=29">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71b13bdf081.jpg" width="160" height="160"
+                                                 alt="">
+                                            <P class="p_name">樱桃（Cherry）MX-Board 2.0 G80-3801京东专供版 游戏办公机械键盘 黑色黑轴</P>
+                                            <p class="p_price">￥269</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=30">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71b15c3c2e5.jpg" width="160" height="160"
+                                                 alt="">
+                                            <P class="p_name">ikbc c87 樱桃轴机械键盘 87键原厂Cherry轴 白色 红轴 游戏键盘 绝地求生 吃鸡键盘</P>
+                                            <p class="p_price">￥399</p>
+                                        </a>
+                                    </li>                            </ul>
+                        </div>
+                        <div class="cont_item">
+                            <ul>
+                                <li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=31">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71b28ba1970.jpg" width="160" height="160"
+                                                 alt="">
+                                            <P class="p_name">雷蛇（Razer）Basilisk巴塞利斯蛇 RGB幻彩 有线游戏鼠标 5G电竞鼠标 黑色 吃鸡蛇 绝地求生鼠标</P>
+                                            <p class="p_price">￥359</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=32">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71b2bda67bc.jpg" width="160" height="160"
+                                                 alt="">
+                                            <P class="p_name">赛睿（SteelSeries）Sensei310 游戏鼠标 绝地求生吃鸡利器 一比一电竞传感器12000DPI</P>
+                                            <p class="p_price">￥249</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=33">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71b2e83b428.jpg" width="160" height="160"
+                                                 alt="">
+                                            <P class="p_name">微软（Microsoft）IE3.0鼠标 蓝影增强版鼠标</P>
+                                            <p class="p_price">￥158</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=34">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71b30fd3203.jpg" width="160" height="160"
+                                                 alt="">
+                                            <P class="p_name">罗技（Logitech）G300s 角色扮演网游光电鼠标</P>
+                                            <p class="p_price">￥499</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=35">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71b333a370f.jpg" width="160" height="160"
+                                                 alt="">
+                                            <P class="p_name">罗技（Logitech）G403 游戏鼠标 RGB鼠标 吃鸡鼠标 绝地求生 12000DPI</P>
+                                            <p class="p_price">￥129</p>
+                                        </a>
+                                    </li><li class="item_li">
+                                        <a href="/copyjd/index.php/Home/Item/detail?id=36">
+                                            <img src="/copyjd/Uploads/2018-01-31/5a71b35b341e9.jpg" width="160" height="160"
+                                                 alt="">
+                                            <P class="p_name">罗技（Logitech）G603 LIGHTSPEED 无线游戏鼠标 无线鼠标 吃鸡鼠标 绝地求生</P>
+                                            <p class="p_price">￥239</p>
+                                        </a>
+                                    </li>                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <ul class="rank_nav clearfix">
+                        <li class="rank_item">热卖排行榜</li>
+                        <li class="rank_item">人气排行榜</li>
+                    </ul>
+                    <ul class="rank_cont">
+                        <li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=25">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a71b091ea790.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">达尔优（dareu）108键机械合金版游戏背光机械键盘 黑银色 黑轴 绝地求生吃鸡利器</p>
+                                        <p class="p_price">￥199</p>
+                                    </div>
+                                </a>
+                            </li><li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=26">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a71b0c41025c.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">黑爵（AJAZZ）刺客Ⅱ合金机械键盘AK35i 曜石黑 黑轴白光 游戏 背光 办公 电脑 笔记本 吃鸡键盘</p>
+                                        <p class="p_price">￥299</p>
+                                    </div>
+                                </a>
+                            </li><li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=27">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a71b0ecd2c45.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">雷柏（Rapoo） V500PRO 混光机械键盘 游戏键盘 吃鸡键盘 背光键盘 电脑键盘 笔记本键盘 黑色 黑轴</p>
+                                        <p class="p_price">￥379</p>
+                                    </div>
+                                </a>
+                            </li><li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=28">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a71b112ca415.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">雷蛇（Razer）黑寡妇蜘蛛幻彩版V2 RGB游戏机械键盘 黑色绿轴 绝地求生吃鸡键盘</p>
+                                        <p class="p_price">￥369</p>
+                                    </div>
+                                </a>
+                            </li><li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=29">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a71b13bdf081.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">樱桃（Cherry）MX-Board 2.0 G80-3801京东专供版 游戏办公机械键盘 黑色黑轴</p>
+                                        <p class="p_price">￥269</p>
+                                    </div>
+                                </a>
+                            </li><li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=30">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a71b15c3c2e5.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">ikbc c87 樱桃轴机械键盘 87键原厂Cherry轴 白色 红轴 游戏键盘 绝地求生 吃鸡键盘</p>
+                                        <p class="p_price">￥399</p>
+                                    </div>
+                                </a>
+                            </li>                    </ul>
+                    <ul class="rank_cont">
+                        <li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=31">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a71b28ba1970.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">雷蛇（Razer）Basilisk巴塞利斯蛇 RGB幻彩 有线游戏鼠标 5G电竞鼠标 黑色 吃鸡蛇 绝地求生鼠标</p>
+                                        <p class="p_price">￥359</p>
+                                    </div>
+                                </a>
+                            </li><li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=32">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a71b2bda67bc.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">赛睿（SteelSeries）Sensei310 游戏鼠标 绝地求生吃鸡利器 一比一电竞传感器12000DPI</p>
+                                        <p class="p_price">￥249</p>
+                                    </div>
+                                </a>
+                            </li><li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=33">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a71b2e83b428.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">微软（Microsoft）IE3.0鼠标 蓝影增强版鼠标</p>
+                                        <p class="p_price">￥158</p>
+                                    </div>
+                                </a>
+                            </li><li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=34">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a71b30fd3203.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">罗技（Logitech）G300s 角色扮演网游光电鼠标</p>
+                                        <p class="p_price">￥499</p>
+                                    </div>
+                                </a>
+                            </li><li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=35">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a71b333a370f.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">罗技（Logitech）G403 游戏鼠标 RGB鼠标 吃鸡鼠标 绝地求生 12000DPI</p>
+                                        <p class="p_price">￥129</p>
+                                    </div>
+                                </a>
+                            </li><li class="rank_li">
+                                <a href="/copyjd/index.php/Home/Item/detail?id=36">
+                                    <div class="rank_hover">
+                                        <img src="/copyjd/Uploads/2018-01-31/5a71b35b341e9.jpg" width="70" height="70" alt="">
+                                    </div>
+                                    <div class="rank_right">
+                                        <p class="p_name">罗技（Logitech）G603 LIGHTSPEED 无线游戏鼠标 无线鼠标 吃鸡鼠标 绝地求生</p>
+                                        <p class="p_price">￥239</p>
+                                    </div>
+                                </a>
+                            </li>                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--外设装备usb区 end-->
+    </main>
+    <!--主体main区 end-->
+
+
+<!--模板继承调整底部广告advert区-->
+
+    <!--底部广告advert区 start-->
+    <div class="footer_advert">
+        <img src="/copyjd/Uploads/2018-01-31/5a7154f60a5b3.jpg" width="1210" height="200" alt="">
+    </div>
+    <!--底部广告advert区 end-->
+
+
+<!--底部footer区 start-->
+<footer>
+    <div class="footer_item">
+        <div class="item_box">
+            <img src="/copyjd/Home/Home/View/Public/images/footer/1.png" alt="">
+            <img src="/copyjd/Home/Home/View/Public/images/footer/2.png" alt="">
+            <img src="/copyjd/Home/Home/View/Public/images/footer/3.png" alt="">
+            <img src="/copyjd/Home/Home/View/Public/images/footer/4.png" alt="">
+        </div>
+    </div>
+    <!--底部导航nav区 start-->
+    <nav>
+        <ul>
+            <li>
+                <h5>购物指南</h5>
+                <p><a href="javascript:">购物流程</a></p>
+                <p><a href="javascript:">会员介绍</a></p>
+                <p><a href="javascript:">生活旅行/团购</a></p>
+                <p><a href="javascript:">常见问题</a></p>
+                <p><a href="javascript:">大家电</a></p>
+                <p><a href="javascript:">联系客服</a></p>
+            </li>
+            <li>
+                <h5>配送方式</h5>
+                <p><a href="javascript:">上门自提</a></p>
+                <p><a href="javascript:">211限时达</a></p>
+                <p><a href="javascript:">配送服务查询</a></p>
+                <p><a href="javascript:">配送费收费标准</a></p>
+                <p><a href="javascript:">海外配送</a></p>
+            </li>
+            <li>
+                <h5>支付方式</h5>
+                <p><a href="javascript:">货到付款</a></p>
+                <p><a href="javascript:">在线支付</a></p>
+                <p><a href="javascript:">分期付款</a></p>
+                <p><a href="javascript:">邮局汇款</a></p>
+                <p><a href="javascript:">公司转账</a></p>
+            </li>
+            <li>
+                <h5>售后服务</h5>
+                <p><a href="javascript:">售后政策</a></p>
+                <p><a href="javascript:">价格保护</a></p>
+                <p><a href="javascript:">退款说明</a></p>
+                <p><a href="javascript:">返修/退换货</a></p>
+                <p><a href="javascript:">取消订单</a></p>
+            </li>
+            <li>
+                <h5>特色服务</h5>
+                <p><a href="javascript:">夺宝岛</a></p>
+                <p><a href="javascript:">DIY装机</a></p>
+                <p><a href="javascript:">延保服务</a></p>
+                <p><a href="javascript:">京东E卡</a></p>
+                <p><a href="javascript:">京东通信</a></p>
+                <p><a href="javascript:">京东JD+</a></p>
+            </li>
+        </ul>
+    </nav>
+    <!--底部导航nav区 end-->
+</footer>
+<!--底部footer区 end-->
+
+<script src="/copyjd/Public/bs/js/holder.min.js"></script>
+<script src="/copyjd/Public/bs/js/jquery-3.2.1.min.js"></script>
+<script src="/copyjd/Home/Home/View/Public/js/Index_header.js"></script>
+
+<!--模板继承调整主体js特效-->
+
+    <script src="/copyjd/Home/Home/View/Public/js/Index_main.js"></script>
+
+
+</body>
+</html>

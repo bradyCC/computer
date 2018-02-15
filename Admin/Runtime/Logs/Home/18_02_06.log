@@ -1,0 +1,1155 @@
+[ 2018-02-06T19:14:27+08:00 ] ::1 /copyjd/admin.php/Home/Item/index/cls/Item
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+NOTIC: [2] file_put_contents(./Admin/Runtime/Cache/Home/a75aa910e933649c91db6b2f974c5340.php): failed to open stream: Permission denied /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Storage/Driver/File.class.php 第 47 行.
+ERR: _STORAGE_WRITE_ERROR_:./Admin/Runtime/Cache/Home/a75aa910e933649c91db6b2f974c5340.php
+
+[ 2018-02-06T19:14:29+08:00 ] ::1 /copyjd/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+NOTIC: [2] file_put_contents(./Admin/Runtime/Cache/Home/a75aa910e933649c91db6b2f974c5340.php): failed to open stream: Permission denied /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Storage/Driver/File.class.php 第 47 行.
+ERR: _STORAGE_WRITE_ERROR_:./Admin/Runtime/Cache/Home/a75aa910e933649c91db6b2f974c5340.php
+
+[ 2018-02-06T19:14:29+08:00 ] ::1 /copyjd/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+NOTIC: [2] file_put_contents(./Admin/Runtime/Cache/Home/a75aa910e933649c91db6b2f974c5340.php): failed to open stream: Permission denied /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Storage/Driver/File.class.php 第 47 行.
+ERR: _STORAGE_WRITE_ERROR_:./Admin/Runtime/Cache/Home/a75aa910e933649c91db6b2f974c5340.php
+
+[ 2018-02-06T19:14:51+08:00 ] ::1 /copyjd/admin.php/Home/Item/index/cls/Item
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000015s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000029s ]
+NOTIC: [2] file_put_contents(./Admin/Runtime/Cache/Home/a75aa910e933649c91db6b2f974c5340.php): failed to open stream: Permission denied /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Storage/Driver/File.class.php 第 47 行.
+ERR: _STORAGE_WRITE_ERROR_:./Admin/Runtime/Cache/Home/a75aa910e933649c91db6b2f974c5340.php
+
+[ 2018-02-06T19:14:52+08:00 ] ::1 /copyjd/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000015s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000028s ]
+NOTIC: [2] file_put_contents(./Admin/Runtime/Cache/Home/a75aa910e933649c91db6b2f974c5340.php): failed to open stream: Permission denied /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Storage/Driver/File.class.php 第 47 行.
+ERR: _STORAGE_WRITE_ERROR_:./Admin/Runtime/Cache/Home/a75aa910e933649c91db6b2f974c5340.php
+
+[ 2018-02-06T19:14:53+08:00 ] ::1 /copyjd/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000206s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000016s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000028s ]
+NOTIC: [2] file_put_contents(./Admin/Runtime/Cache/Home/a75aa910e933649c91db6b2f974c5340.php): failed to open stream: Permission denied /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Storage/Driver/File.class.php 第 47 行.
+ERR: _STORAGE_WRITE_ERROR_:./Admin/Runtime/Cache/Home/a75aa910e933649c91db6b2f974c5340.php
+
+[ 2018-02-06T19:15:39+08:00 ] ::1 /copyjd/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [2] file_put_contents(./Admin/Runtime/Cache/Home/a75aa910e933649c91db6b2f974c5340.php): failed to open stream: Permission denied /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Storage/Driver/File.class.php 第 47 行.
+ERR: _STORAGE_WRITE_ERROR_:./Admin/Runtime/Cache/Home/a75aa910e933649c91db6b2f974c5340.php
+
+[ 2018-02-06T19:15:51+08:00 ] ::1 /copyjd/admin.php/Home/Item/index/cls/Item
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000201s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000031s ]
+NOTIC: [2] file_put_contents(./Admin/Runtime/Cache/Home/a75aa910e933649c91db6b2f974c5340.php): failed to open stream: Permission denied /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Storage/Driver/File.class.php 第 47 行.
+ERR: _STORAGE_WRITE_ERROR_:./Admin/Runtime/Cache/Home/a75aa910e933649c91db6b2f974c5340.php
+
+[ 2018-02-06T19:15:52+08:00 ] ::1 /copyjd/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000033s ]
+NOTIC: [2] file_put_contents(./Admin/Runtime/Cache/Home/a75aa910e933649c91db6b2f974c5340.php): failed to open stream: Permission denied /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Storage/Driver/File.class.php 第 47 行.
+ERR: _STORAGE_WRITE_ERROR_:./Admin/Runtime/Cache/Home/a75aa910e933649c91db6b2f974c5340.php
+
+[ 2018-02-06T19:15:53+08:00 ] ::1 /copyjd/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [2] file_put_contents(./Admin/Runtime/Cache/Home/a75aa910e933649c91db6b2f974c5340.php): failed to open stream: Permission denied /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Storage/Driver/File.class.php 第 47 行.
+ERR: _STORAGE_WRITE_ERROR_:./Admin/Runtime/Cache/Home/a75aa910e933649c91db6b2f974c5340.php
+
+[ 2018-02-06T19:16:37+08:00 ] ::1 /copyjd/admin.php/Home/Item/index/cls/Item
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000031s ]
+NOTIC: [2] file_put_contents(./Admin/Runtime/Cache/Home/a75aa910e933649c91db6b2f974c5340.php): failed to open stream: Permission denied /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Storage/Driver/File.class.php 第 47 行.
+ERR: _STORAGE_WRITE_ERROR_:./Admin/Runtime/Cache/Home/a75aa910e933649c91db6b2f974c5340.php
+
+[ 2018-02-06T19:16:38+08:00 ] ::1 /copyjd/admin.php/Home/Item/index/cls/Item
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000032s ]
+NOTIC: [2] file_put_contents(./Admin/Runtime/Cache/Home/a75aa910e933649c91db6b2f974c5340.php): failed to open stream: Permission denied /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Storage/Driver/File.class.php 第 47 行.
+ERR: _STORAGE_WRITE_ERROR_:./Admin/Runtime/Cache/Home/a75aa910e933649c91db6b2f974c5340.php
+
+[ 2018-02-06T19:22:21+08:00 ] ::1 /copyjd/admin.php/Home/Item/index/cls/Item
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000036s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+
+[ 2018-02-06T19:22:24+08:00 ] ::1 /copyjd/admin.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000244s ]
+
+[ 2018-02-06T19:22:28+08:00 ] ::1 /copyjd/admin.php/Home/Login/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admin' AND `password` = '202cb962ac59075b964b07152d234b70' AND `is_admin` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admin' AND `password` = '202cb962ac59075b964b07152d234b70' AND `is_admin` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000036s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000279s ]
+
+[ 2018-02-06T19:22:29+08:00 ] ::1 /copyjd/admin.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/55843b8195cd32862e5dfa640df6e51d.php 第 62 行.
+NOTIC: [8] Undefined index: cls /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/55843b8195cd32862e5dfa640df6e51d.php 第 250 行.
+NOTIC: [8] Undefined index: cls /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/55843b8195cd32862e5dfa640df6e51d.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000996s ]
+
+[ 2018-02-06T19:22:40+08:00 ] ::1 /copyjd/admin.php/Home/User/index/cls/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0032s ]
+SQL: SELECT * FROM `user` WHERE ( is_admin=0 ) LIMIT 0,7   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/195a947a52202a317d13267de92fe2b5.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2018-02-06T19:22:43+08:00 ] ::1 /copyjd/admin.php/Home/User/add/cls/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined variable: title /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/04570ff03c40e9008f0e50b9d5cb0b33.php 第 5 行.
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/04570ff03c40e9008f0e50b9d5cb0b33.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2018-02-06T19:22:45+08:00 ] ::1 /copyjd/admin.php/Home/Advert/index/cls/Advert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `advert` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `advert` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `advert` LIMIT 0,6   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/6df502ac42c93a64a8a4770110e457fb.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2018-02-06T19:22:46+08:00 ] ::1 /copyjd/admin.php/Home/Advert/add/cls/Advert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined variable: title /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/cfb7fb4933ec3c0088c52f0360eb3f04.php 第 5 行.
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/cfb7fb4933ec3c0088c52f0360eb3f04.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2018-02-06T19:22:48+08:00 ] ::1 /copyjd/admin.php/Home/Advert/index/cls/Advert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `advert` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `advert` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `advert` LIMIT 0,6   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/6df502ac42c93a64a8a4770110e457fb.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2018-02-06T19:22:49+08:00 ] ::1 /copyjd/admin.php/Home/Advert/add/cls/Advert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: title /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/cfb7fb4933ec3c0088c52f0360eb3f04.php 第 5 行.
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/cfb7fb4933ec3c0088c52f0360eb3f04.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004463s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2018-02-06T19:22:52+08:00 ] ::1 /copyjd/admin.php/Home/Class/index/cls/Class
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` LIMIT 0,8   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/b522a68d9cfdcc03d7ee11da3535eb48.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001341s ]
+
+[ 2018-02-06T19:22:54+08:00 ] ::1 /copyjd/admin.php/Home/Class/add/cls/Class
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined variable: title /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/830baaf639aa4e43bc85c914f0186769.php 第 5 行.
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/830baaf639aa4e43bc85c914f0186769.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2018-02-06T19:22:56+08:00 ] ::1 /copyjd/admin.php/Home/Brand/index/cls/Brand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+SQL: select brand.id,brandname,classname from brand,class where brand.class_id = class.id [ RunTime:0.0007s ]
+SQL: select brand.id,brandname,classname from brand,class where brand.class_id = class.id limit 0,8 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/c0d58b309cf6527385e2069323548ab1.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2018-02-06T19:22:57+08:00 ] ::1 /copyjd/admin.php/Home/Brand/add/cls/Brand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined variable: title /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/b1a010139d52e828b3a8349102a31f7b.php 第 5 行.
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/b1a010139d52e828b3a8349102a31f7b.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2018-02-06T19:22:59+08:00 ] ::1 /copyjd/admin.php/Home/Item/index/cls/Item
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+SQL: select item.*,brandname from item,brand where item.brand_id = brand.id [ RunTime:0.0005s ]
+SQL: select item.*,brandname from item,brand where item.brand_id = brand.id limit 0,5 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/707eecf14ae56b0dbb82a38f7ae41ca8.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2018-02-06T19:23:00+08:00 ] ::1 /copyjd/admin.php/Home/Item/add/cls/Item
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined variable: title /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/d8e08455461c990c8645f0c43943753b.php 第 5 行.
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/d8e08455461c990c8645f0c43943753b.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2018-02-06T19:23:01+08:00 ] ::1 /copyjd/admin.php/Home/Item/index/cls/Item
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+SQL: select item.*,brandname from item,brand where item.brand_id = brand.id [ RunTime:0.0005s ]
+SQL: select item.*,brandname from item,brand where item.brand_id = brand.id limit 0,5 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/707eecf14ae56b0dbb82a38f7ae41ca8.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2018-02-06T19:23:04+08:00 ] ::1 /copyjd/admin.php/Home/Item/index/cls/Item/p/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: select item.*,brandname from item,brand where item.brand_id = brand.id [ RunTime:0.0005s ]
+SQL: select item.*,brandname from item,brand where item.brand_id = brand.id limit 45,5 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/707eecf14ae56b0dbb82a38f7ae41ca8.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2018-02-06T19:23:08+08:00 ] ::1 /copyjd/admin.php/Home/Comment/index/cls/Comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: select comment.*,username,itemname from comment,user,item where comment.user_id = user.id and comment.item_id = item.id [ RunTime:0.0010s ]
+SQL: select comment.*,username,itemname from comment,user,item where comment.user_id = user.id and comment.item_id = item.id limit 0,4 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/5140dc850210d3b7b31ece4f74111524.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2018-02-06T19:23:28+08:00 ] ::1 /copyjd/admin.php/Home/Comment/index/cls/Comment/p/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: select comment.*,username,itemname from comment,user,item where comment.user_id = user.id and comment.item_id = item.id [ RunTime:0.0010s ]
+SQL: select comment.*,username,itemname from comment,user,item where comment.user_id = user.id and comment.item_id = item.id limit 4,4 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/5140dc850210d3b7b31ece4f74111524.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2018-02-06T19:23:29+08:00 ] ::1 /copyjd/admin.php/Home/Comment/index/cls/Comment/p/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+SQL: select comment.*,username,itemname from comment,user,item where comment.user_id = user.id and comment.item_id = item.id [ RunTime:0.0005s ]
+SQL: select comment.*,username,itemname from comment,user,item where comment.user_id = user.id and comment.item_id = item.id limit 8,4 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/5140dc850210d3b7b31ece4f74111524.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004858s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2018-02-06T19:23:30+08:00 ] ::1 /copyjd/admin.php/Home/Comment/index/cls/Comment/p/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+SQL: select comment.*,username,itemname from comment,user,item where comment.user_id = user.id and comment.item_id = item.id [ RunTime:0.0004s ]
+SQL: select comment.*,username,itemname from comment,user,item where comment.user_id = user.id and comment.item_id = item.id limit 4,4 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/5140dc850210d3b7b31ece4f74111524.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2018-02-06T19:23:31+08:00 ] ::1 /copyjd/admin.php/Home/Comment/index/cls/Comment/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+SQL: select comment.*,username,itemname from comment,user,item where comment.user_id = user.id and comment.item_id = item.id [ RunTime:0.0008s ]
+SQL: select comment.*,username,itemname from comment,user,item where comment.user_id = user.id and comment.item_id = item.id limit 0,4 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/5140dc850210d3b7b31ece4f74111524.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2018-02-06T19:23:42+08:00 ] ::1 /copyjd/admin.php/Home/Comment/index/cls/Comment/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+SQL: select comment.*,username,itemname from comment,user,item where comment.user_id = user.id and comment.item_id = item.id [ RunTime:0.0004s ]
+SQL: select comment.*,username,itemname from comment,user,item where comment.user_id = user.id and comment.item_id = item.id limit 0,5 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/5140dc850210d3b7b31ece4f74111524.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2018-02-06T19:23:45+08:00 ] ::1 /copyjd/admin.php/Home/Comment/index/cls/Comment/p/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: select comment.*,username,itemname from comment,user,item where comment.user_id = user.id and comment.item_id = item.id [ RunTime:0.0005s ]
+SQL: select comment.*,username,itemname from comment,user,item where comment.user_id = user.id and comment.item_id = item.id limit 5,5 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/5140dc850210d3b7b31ece4f74111524.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2018-02-06T19:23:47+08:00 ] ::1 /copyjd/admin.php/Home/Comment/index/cls/Comment/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+SQL: select comment.*,username,itemname from comment,user,item where comment.user_id = user.id and comment.item_id = item.id [ RunTime:0.0005s ]
+SQL: select comment.*,username,itemname from comment,user,item where comment.user_id = user.id and comment.item_id = item.id limit 0,5 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/5140dc850210d3b7b31ece4f74111524.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2018-02-06T19:23:56+08:00 ] ::1 /copyjd/admin.php/Home/Comment/index/cls/Comment/p/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000262s ]
+SQL: select comment.*,username,itemname from comment,user,item where comment.user_id = user.id and comment.item_id = item.id [ RunTime:0.0012s ]
+SQL: select comment.*,username,itemname from comment,user,item where comment.user_id = user.id and comment.item_id = item.id limit 5,5 [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/5140dc850210d3b7b31ece4f74111524.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2018-02-06T19:24:07+08:00 ] ::1 /copyjd/admin.php/Home/Comment/index/cls/Comment/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: select comment.*,username,itemname from comment,user,item where comment.user_id = user.id and comment.item_id = item.id [ RunTime:0.0005s ]
+SQL: select comment.*,username,itemname from comment,user,item where comment.user_id = user.id and comment.item_id = item.id limit 0,5 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/5140dc850210d3b7b31ece4f74111524.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2018-02-06T19:24:10+08:00 ] ::1 /copyjd/admin.php/Home/Status/index/cls/Status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `status` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `status` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `status` LIMIT 0,7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/31b35a3112701baf721b13099bc5a940.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2018-02-06T19:24:12+08:00 ] ::1 /copyjd/admin.php/Home/Status/add/cls/Status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined variable: title /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/d4180ef606d561bcc705116e19292c85.php 第 5 行.
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/d4180ef606d561bcc705116e19292c85.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2018-02-06T19:24:13+08:00 ] ::1 /copyjd/admin.php/Home/Indent/index/cls/Indent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+SQL: select indent.*,username,statusname from indent,user,status where indent.user_id = user.id and indent.status_id = status.id group by indent.number [ RunTime:0.0050s ]
+SQL: select indent.*,username,statusname from indent,user,status where indent.user_id = user.id and indent.status_id = status.id group by indent.number limit 0,7 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/31616978bdbd3e38b40680c633e56c22.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2018-02-06T19:24:15+08:00 ] ::1 /copyjd/admin.php/Home/Indent/detail/cls/Indent/number/7028709655
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+SQL: select * from item,indent where indent.item_id = item.id and indent.number = 7028709655 [ RunTime:0.0010s ]
+SQL: select * from item,indent where indent.item_id = item.id and indent.number = 7028709655 limit 0,7 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/0d19bf5241eed20962d66210e45a24ec.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2018-02-06T19:24:24+08:00 ] ::1 /copyjd/admin.php/Home/Indent/detail/cls/Indent/number/1234166607
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+SQL: select * from item,indent where indent.item_id = item.id and indent.number = 1234166607 [ RunTime:0.0004s ]
+SQL: select * from item,indent where indent.item_id = item.id and indent.number = 1234166607 limit 0,7 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/0d19bf5241eed20962d66210e45a24ec.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2018-02-06T19:24:27+08:00 ] ::1 /copyjd/admin.php/Home/Indent/detail/cls/Indent/number/5061645457
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+SQL: select * from item,indent where indent.item_id = item.id and indent.number = 5061645457 [ RunTime:0.0003s ]
+SQL: select * from item,indent where indent.item_id = item.id and indent.number = 5061645457 limit 0,7 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/0d19bf5241eed20962d66210e45a24ec.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2018-02-06T19:24:30+08:00 ] ::1 /copyjd/admin.php/Home/Indent/detail/cls/Indent/number/7028709655
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: select * from item,indent where indent.item_id = item.id and indent.number = 7028709655 [ RunTime:0.0003s ]
+SQL: select * from item,indent where indent.item_id = item.id and indent.number = 7028709655 limit 0,7 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/0d19bf5241eed20962d66210e45a24ec.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2018-02-06T19:24:33+08:00 ] ::1 /copyjd/admin.php/Home/Indent/address/cls/Indent/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `contact` WHERE `id` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/3f63f658fc75f84af1e4a20164cf9b04.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000358s ]
+
+[ 2018-02-06T19:24:35+08:00 ] ::1 /copyjd/admin.php/Home/Indent/address/cls/Indent/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `contact` WHERE `id` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/3f63f658fc75f84af1e4a20164cf9b04.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2018-02-06T19:24:38+08:00 ] ::1 /copyjd/admin.php/Home/Indent/address/cls/Indent/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `contact` WHERE `id` = 1  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/3f63f658fc75f84af1e4a20164cf9b04.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2018-02-06T19:24:51+08:00 ] ::1 /copyjd/admin.php/Home/Indent/save/cls/Indent/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `indent` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `indent` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined variable: title /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/835a5518d3aab57ce6d9e263eb4a8ae5.php 第 5 行.
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/835a5518d3aab57ce6d9e263eb4a8ae5.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2018-02-06T19:24:54+08:00 ] ::1 /copyjd/admin.php/Home/Indent/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `indent` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `indent` SET `status_id`='2' WHERE `id` = 6 [ RunTime:0.0276s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000265s ]
+
+[ 2018-02-06T19:24:55+08:00 ] ::1 /copyjd/admin.php/Home/Indent/index/cls/Indent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+NOTIC: [8] Constant MODULE_NAME already defined /Users/brady/Sites/copyjd/ThinkPHP/Library/Think/Dispatcher.class.php 第 140 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: select indent.*,username,statusname from indent,user,status where indent.user_id = user.id and indent.status_id = status.id group by indent.number [ RunTime:0.0005s ]
+SQL: select indent.*,username,statusname from indent,user,status where indent.user_id = user.id and indent.status_id = status.id group by indent.number limit 0,7 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined index: id /Users/brady/Sites/copyjd/Admin/Runtime/Cache/Home/31616978bdbd3e38b40680c633e56c22.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004674s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+

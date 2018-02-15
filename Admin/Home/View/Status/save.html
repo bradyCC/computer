@@ -1,0 +1,23 @@
+<extend name="Index/index"/>
+
+<block name="right">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <div class="panel-title">添加订单状态</div>
+        </div>
+        <div class="panel-body">
+            <form action="__CONTROLLER__/update" method="post">
+                <div class="form-group">
+                    <label for="">订单状态：</label>
+                    <input type="text" name="statusname" class="form-control" value="{$row['statusname']}" required autofocus>
+                </div>
+
+                <input type="hidden" name="id" value="{$row['id']}">
+                <div class="form-group">
+                    <input type="submit" value="修改" class="btn btn-primary">
+                    <input type="reset" value="重置" class="btn btn-danger">
+                </div>
+            </form>
+        </div>
+    </div>
+</block>

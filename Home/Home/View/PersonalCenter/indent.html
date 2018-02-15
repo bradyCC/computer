@@ -1,0 +1,49 @@
+<extend name="PersonalCenter/index"/>
+
+<block name="css">
+    <style>
+        .right .welcome{
+            display: none;
+        }
+    </style>
+</block>
+
+<!--个人中心我的订单页面-->
+<block name="main">
+    <div class="right_item">
+        <table>
+            <tr>
+                <th class="in_i">编号</th>
+                <th class="in_n">订单号</th>
+                <th class="in_t">下单时间</th>
+                <th class="in_s">订单状态</th>
+                <th class="in_r">取消订单</th>
+            </tr>
+            <volist name="indents" id="indent">
+                <tr>
+                    <td>{$i}</td>
+                    <td><a href="__APP__/Home/PersonalCenter/detail?number={$indent['number']}" class="number">{$indent['number']}</a></td>
+                    <td>{:date('Y-m-d H:i:s',$indent['time'])}</td>
+                    <td>
+                        <switch name="indent['status_id']">
+                            <case value="1">未发货</case>
+                            <case value="2">已发货</case>
+                            <case value="3">未付款</case>
+                            <case value="4">已付款</case>
+                            <case value="5">已完成</case>
+                            <default/>已取消
+                        </switch>
+                    </td>
+                    <td><a href="javascript:">取消</a></td>
+                </tr>
+            </volist>
+        </table>
+    </div>
+</block>
+
+<block name="js">
+    <script>
+        //我的订单显示
+        $(".left ul li a").eq(2).css({"color":"#f30213","background":"#fff"});
+    </script>
+</block>

@@ -1,0 +1,61 @@
+
+/*后台登录样式*/
+body{
+    background: url(../images/bg_4.jpeg);
+}
+.signin{
+    width: 477px;
+    height: 479px;
+    background: url(../images/login_bg.png) no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -239px;
+    margin-left: -238px;
+}
+.signin_head{
+    width: 120px;
+    margin: 0 auto;
+    padding-top:30px;
+}
+.signin_head img{
+    width: 120px;
+    height: 120px;
+}
+.form_signin{
+    max-width: 400px;
+    padding: 43px 15px 15px 15px;
+    margin: 0 auto;
+}
+.form_signin .checkbox{
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+.form_signin .form-control{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form_signin .form-control:focus{
+    z-index: 2;
+}
+.form_signin input[type="text"]{
+    margin-bottom: 14px;
+    background: url(../images/login_user.png) 0 0 #bdbdbd no-repeat;
+    padding-left:60px;
+    color:#FFFFFF;
+}
+.form_signin input[type="password"] {
+    margin-bottom: 10px;
+    background: url(../images/login_pas.png) 0 0 #bdbdbd no-repeat;
+    padding-left:60px;
+    color:#FFFFFF;
+}
+.form_signin input[type="submit"]{
+    color: #fff;
+}

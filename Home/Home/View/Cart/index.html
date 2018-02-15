@@ -1,0 +1,323 @@
+<extend name="Index/index"/>
+
+<block name="css">
+    <style>
+        /*主体main样式*/
+        main {
+            width: 1210px;
+            /*height: 585px;*/
+            margin: 15px auto;
+        }
+        /*购物车header区样式*/
+        main .header {
+            height: 30px;
+            line-height: 30px;
+            /*background: #eee;*/
+
+        }
+        .header .title {
+            font-size: 14px;
+            color: #272822;
+            font-weight: bold;
+            margin-left: 15px;
+        }
+        .header .title a {
+            color: #272822;
+        }
+        .header .title a:hover {
+            color: #f30213;
+        }
+        .header .title b {
+            font-size: 12px;
+        }
+        /*购物车main区样式*/
+        main .main{
+            /*height: 485px;*/
+            margin-bottom: 10px;
+        }
+        .main table tr,th,td{
+            border: 1px solid #f8f8f8;
+        }
+        .main table .title{
+            height: 30px;
+            line-height: 30px;
+            background: #f30213;
+            color: #fff;
+            font-size: 16px;
+        }
+        .main table tr{
+            text-align: center;
+        }
+        .main table tr td{
+            font-size: 14px;
+            color: #272822;
+        }
+        .main table tr td a{
+            font-size: 14px;
+            color: #272822;
+        }
+        .main table .i_w{
+            width: 76px;
+        }
+        .main table .n_w{
+            width: 350px;
+        }
+        .main table .im_w{
+            width: 250px;
+        }
+        .main table .p_w{
+            width: 150px;
+        }
+        .main table img{
+            display: block;
+        }
+        .main table tr td:hover{
+            color: #f30213;
+        }
+        .main table tr td a:hover{
+            color: #f30213;
+        }
+        .minus, .plus{
+            padding: 0 5px 1px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            font-weight: bold;
+            color: #fff;
+            background: #f30213;
+            cursor: pointer;
+        }
+        /*购物车footer区样式*/
+        main .footer{
+            /*height: 286px;*/
+        }
+        .footer .result{
+            height: 30px;
+            line-height: 30px;
+            margin-bottom: 15px;
+            /*background: #f8f8f8;*/
+        }
+        .result .info{
+            float: left;
+            width: 300px;
+            margin-left: 15px;
+        }
+        .info span{
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .money{
+            padding-left: 10px;
+            color: #f30213;
+        }
+        .count, .clear, .continue{
+            float: right;
+            margin-left: 5px;
+            display: inline-block;
+            width: 100px;
+            color: #fff;
+            background: #f30213;
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .count:hover ,.clear:hover, .continue:hover{
+            background: #f1f1f1;
+            color: #f30213;
+        }
+        .address{
+            /*height: 240px;*/
+            /*background: #f8f8f8;*/
+        }
+        .address .title{
+            height: 30px;
+            line-height: 30px;
+            font-size: 14px;
+            background: #eee;
+            padding-left: 15px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .footer table tr,th,td{
+            border: 1px solid #f8f8f8;
+            font-size: 14px;
+            text-align: center;
+        }
+        .footer table tr{
+            height: 30px;
+        }
+        .footer table tr:hover{
+            color: #f30213;
+        }
+        .footer table tr:first-child:hover{
+            color: #272822;
+        }
+        .footer .c_w{
+            width: 80px;
+        }
+        .footer .n_w{
+            width: 150px;
+        }
+        .footer .a_w{
+            width: 600px;
+        }
+        .footer .p_w{
+            width: 170px;
+        }
+        .footer .e_w{
+            width: 210px;
+        }
+        .address p{
+            background: #f8f8f8;
+        }
+        .address table tr:first-child{
+            color: #fff;
+            background: #f30213;
+        }
+        .address table tr:first-child:hover{
+            color: #fff;
+            background: #f30213;
+        }
+        .remind{
+            height: 30px;
+            font-size: 14px;
+            color: #272822;
+            line-height: 30px;
+            font-weight: bold;
+            margin-left: 15px;
+        }
+        .remind:hover{
+            color: #f30213;
+        }
+    </style>
+</block>
+
+<block name="header_advert"></block>
+<block name="header_search"></block>
+
+<!--模板继承-->
+<block name="main">
+    <main>
+        <!--购物车页面头部header区 start-->
+        <div class="header">
+            <span class="title"><a href="__APP__/Home/Index/index">首页 </a> &gt; <b>购物车</b></span>
+        </div>
+        <!--购物车页面头部header区 end-->
+
+        <!--购物车页面主体main区 start-->
+        <div class="main">
+            <table>
+                <tr class="title">
+                    <th class="i_w">编号</th>
+                    <th class="n_w">商品名称</th>
+                    <th class="im_w">商品图片</th>
+                    <th class="p_w">商品价格</th>
+                    <th class="i_w">库存</th>
+                    <th class="i_w">数量</th>
+                    <th class="p_w">合计</th>
+                    <th class="i_w">删除</th>
+                </tr>
+                <!--<?php $count=0; ?>-->
+                <!--遍历用户已加入购物车的商品信息-->
+                <volist name="_SESSION" id="items">
+                    <volist name="items" id="item">
+                    <tr>
+                        <td>{$i}</td>
+                        <td>{$item['itemname']}</td>
+                        <td><img src="{$item['img']}" alt="" width="250" height="150"></td>
+                        <td>{$item['price']}.00 元</td>
+                        <td>{$item['stock']}</td>
+                        <td>
+                            <a href="__APP__/Home/Cart/minus?id={$item['id']}"><span class="minus">-</span></a>
+                            {$item['num']}<a href="__APP__/Home/Cart/plus?id={$item['id']}">
+                            <span class="plus">+</span></a>
+                        </td>
+                        <td>{$item['price']*$item['num']}.00 元</td>
+                        <td><a href="__APP__/Home/Cart/delete?id={$item['id']}">删除</a></td>
+                        <!--<?php $count+=$item['price']*$item['num']; ?>-->
+                    </tr>
+                    </volist>
+                </volist>
+            </table>
+        </div>
+        <!--购物车页面主体main区 end-->
+
+        <!--购物车页面底部footer区 start-->
+        <div class="footer">
+            <div class="result">
+                <div class="info">
+                    <span>总合计：</span>
+                    <span class="money">{$count}.00 元</span>
+                </div>
+                <a href="__APP__/Home/Index/index" class="continue">继续购物</a>
+                <a href="__APP__/Home/Cart/deleteAll" class="clear">清空购物车</a>
+                <a href="javascript:" class="count">结算</a>
+            </div>
+            <div class="address">
+                <!--提交结算-->
+                <form action="__APP__/Home/Cart/count" method="post" id="count">
+                <div class="title">联系方式</div>
+                <table>
+                    <!--如用户已登录，则显示对应收货地址-->
+                    <if condition = "isset($_SESSION['home_username'])">
+                    <tr>
+                        <th class="c_w">选择</th>
+                        <th class="n_w">姓名</th>
+                        <th class="a_w">地址</th>
+                        <th class="p_w">电话</th>
+                        <th class="e_w">邮箱</th>
+                    </tr>
+                    <!--遍历收货地址-->
+                    <volist name="addrs" id="addr">
+                        <!--默认第一个收货地址被选中-->
+                        <if condition="$i eq 1">
+                            <tr>
+                                <td><input type="radio" name="id" checked value="{$addr['id']}"></td>
+                                <td>{$addr['name']}</td>
+                                <td>{$addr['address']}</td>
+                                <td>{$addr['phone']}</td>
+                                <td>{$addr['email']}</td>
+                            </tr>
+                            <else/>
+                            <tr>
+                                <td><input type="radio" name="id" value="{$addr['id']}"></td>
+                                <td>{$addr['name']}</td>
+                                <td>{$addr['address']}</td>
+                                <td>{$addr['phone']}</td>
+                                <td>{$addr['email']}</td>
+                            </tr>
+                        </if>
+                    </volist>
+                    <!--如用户未登录，提示先登录-->
+                    <else/>
+                        <p><a class="remind" href="__APP__/Home/Login/index" >请先登录</a></p>
+                </if>
+                </table>
+                </form>
+            </div>
+        </div>
+        <!--购物车页面底部footer区 end-->
+    </main>
+</block>
+
+<block name="footer_advert"></block>
+<block name="js">
+    <script>
+        //清空购物车确认
+        $(".clear").click(function(){
+            var c = confirm("您确认要清空购物车吗？");
+            if(!c){
+                return false;
+            }
+        });
+        //结算前如用户未登录，提示先登录
+        $(".count").click(function(){
+            if($(".login").html()=="请登录"){
+                alert("请先登录");
+            }else{
+                //提交表单
+                $("form#count").submit();
+            }
+        });
+    </script>
+</block>

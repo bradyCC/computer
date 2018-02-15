@@ -1,0 +1,198 @@
+<extend name="Index/index"/>
+
+<block name="css">
+    <style>
+        /*主体main样式*/
+        main {
+            width: 1210px;
+            /*height: 585px;*/
+            margin: 15px auto;
+        }
+        /*结算header区样式*/
+        main .header {
+            height: 30px;
+            line-height: 30px;
+            /*background: #eee;*/
+
+        }
+        .header .title {
+            font-size: 14px;
+            color: #272822;
+            font-weight: bold;
+            margin-left: 15px;
+        }
+        .header .title a {
+            color: #272822;
+        }
+        .header .title a:hover {
+            color: #f30213;
+        }
+        .header .title b {
+            font-size: 12px;
+        }
+        /*结算main区样式*/
+        main .main{
+            /*height: 485px;*/
+            margin-bottom: 10px;
+        }
+        .main table tr,th,td{
+            border: 1px solid #f8f8f8;
+        }
+        .main table .title{
+            height: 30px;
+            line-height: 30px;
+            background: #f30213;
+            color: #fff;
+            font-size: 16px;
+        }
+        .main table tr{
+            text-align: center;
+        }
+        .main table tr td{
+            font-size: 14px;
+            color: #272822;
+        }
+        .main table tr td a{
+            font-size: 14px;
+            color: #272822;
+        }
+        .main table .i_w{
+            width: 76px;
+        }
+        .main table .n_w{
+            width: 350px;
+        }
+        .main table .im_w{
+            width: 250px;
+        }
+        .main table .p_w{
+            width: 150px;
+        }
+        .main table img{
+            display: block;
+        }
+        .main table tr td:hover{
+            color: #f30213;
+        }
+        .main table tr td a:hover{
+            color: #f30213;
+        }
+        /*结算footer区样式*/
+        main .footer{
+            /*height: 286px;*/
+        }
+        .footer .result{
+            height: 30px;
+            line-height: 30px;
+            margin-bottom: 15px;
+            /*background: #f8f8f8;*/
+        }
+        .result .info{
+            float: left;
+            width: 800px;
+            margin-left: 15px;
+        }
+        .info span{
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .money, .number, .notice{
+            padding-left: 10px;
+            color: #f30213;
+        }
+        .order{
+            padding-left: 10px;
+        }
+        .look, .continue{
+            float: right;
+            margin-left: 5px;
+            display: inline-block;
+            width: 100px;
+            color: #fff;
+            background: #f30213;
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .look:hover , .continue:hover{
+            background: #f1f1f1;
+            color: #f30213;
+        }
+    </style>
+</block>
+
+<block name="header_advert"></block>
+<block name="header_search"></block>
+
+<!--模板继承-->
+<block name="main">
+    <main>
+        <!--结算页面头部header区 start-->
+        <div class="header">
+            <span class="title"><a href="__APP__/Home/Index/index">首页 </a> &gt; <b>订单结算</b></span>
+        </div>
+        <!--结算页面头部header区 end-->
+
+        <!--结算页面主体main区 start-->
+        <div class="main">
+            <table>
+                <tr class="title">
+                    <th class="i_w">编号</th>
+                    <th class="n_w">商品名称</th>
+                    <th class="im_w">商品图片</th>
+                    <th class="p_w">商品价格</th>
+                    <th class="i_w">库存</th>
+                    <th class="i_w">数量</th>
+                    <th class="p_w">合计</th>
+                </tr>
+                <!--<?php $count=0; ?>-->
+                <!--遍历用户已加入购物车的商品信息-->
+                <volist name="_SESSION" id="items">
+                    <volist name="items" id="item">
+                        <tr>
+                            <td>{$i}</td>
+                            <td>{$item['itemname']}</td>
+                            <td><img src="{$item['img']}" alt="" width="250" height="150"></td>
+                            <td>{$item['price']}.00 元</td>
+                            <td>{$item['stock']}</td>
+                            <td>{$item['num']}</td>
+                            <td>{$item['price']*$item['num']}.00 元</td>
+                            <!--<?php $count+=$item['price']*$item['num']; ?>-->
+                        </tr>
+                    </volist>
+                </volist>
+            </table>
+        </div>
+        <!--购物车页面主体main区 end-->
+
+        <!--购物车页面底部footer区 start-->
+        <div class="footer">
+            <div class="result">
+                <div class="info">
+                    <span>总合计：</span>
+                    <span class="money">{$count}.00 元</span>
+                    <span class="order">订单号：</span>
+                    <span class="number">{$number}</span>
+                    <span class="notice">如未做任何操作，页面将在<span class="time">5</span>秒后自动跳转至查看订单页面</span>
+                </div>
+                <a href="__APP__/Home/Index/index" class="continue">继续购物</a>
+                <a href="__APP__/Home/PersonalCenter/indent" class="look">查看订单</a>
+            </div>
+        </div>
+        <!--结算页面底部footer区 end-->
+    </main>
+</block>
+
+<block name="footer_advert"></block>
+<block name="js">
+    <script>
+        //倒计时
+        Time = setInterval(function(){
+            var s = $(".time").html();
+            if(s>0){
+                s--;
+                $(".time").html(s);
+            }
+        },1000);
+    </script>
+</block>

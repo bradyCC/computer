@@ -1,0 +1,29 @@
+<extend name="Index/index"/>
+
+<block name="right">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <div class="panel-title">添加广告</div>
+        </div>
+        <div class="panel-body">
+            <form action="__CONTROLLER__/insert" method="post">
+                <div class="form-group">
+                    <label for="">图片：</label>
+                    <input type="text" name="img" class="form-control" value="{$path}" required autofocus>
+                </div>
+                <div class="form-group">
+                    <label for="">位置：</label>
+                    <input type="text" name="position" class="form-control" value="0" required>
+                </div>
+                <div class="form-group">
+                    <label for="">URL地址：</label>
+                    <input type="text" name="url" class="form-control" value="http://image.baidu.com" required>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="添加" class="btn btn-primary">
+                    <input type="reset" value="重置" class="btn btn-danger">
+                </div>
+            </form>
+        </div>
+    </div>
+</block>

@@ -1,0 +1,54 @@
+<extend name="PersonalCenter/index"/>
+
+<block name="css">
+    <style>
+        .right .welcome{
+            display: none;
+        }
+        .contect{
+            width: 976px;
+            height: 35px;
+            margin-left: 1px;
+            margin-top: 1px;
+            font-size: 14px;
+            font-weight: bold;
+            padding: 10px;
+            resize: none;
+        }
+        input{
+            width: 150px;
+            height: 30px;
+            line-height: 30px;
+            float: left;
+            border-bottom: 1px solid #f8f8f8;
+            font-size: 14px;
+            font-weight: bold;
+            background: #f30213;
+            color: #fff;
+            cursor: pointer;
+            border: 0;
+            margin-right: 15px;
+        }
+    </style>
+</block>
+
+<!--个人中心商品评论页面-->
+<block name="main">
+    <div class="right_item">
+        <div class="f_title">商品评论</div>
+        <form action="__APP__/Home/PersonalCenter/insertC" method="post">
+            <textarea name="content" id="content" class="contect" autofocus></textarea>
+            <input type="hidden" name="number" value="{$number}">
+            <input type="hidden" name="item_id" value="{$item_id}">
+            <input type="submit" value="提交">
+            <input type="reset" value="重置">
+        </form>
+    </div>
+</block>
+
+<block name="js">
+    <script>
+        //我的订单显示
+        $(".left ul li a").eq(2).css({"color":"#f30213","background":"#fff"});
+    </script>
+</block>

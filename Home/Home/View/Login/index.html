@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!--<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">-->
+    <!--<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">-->
+    <title>{$title}</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: "微软雅黑"," 宋体";
+            background: url(../Public/images/bg_4.jpeg);
+            color: #111;
+        }
+        #userlogin{
+            width: 300px;
+            background: #fff;
+            margin: 30px auto;
+            padding: 25px;
+            position: relative;
+            left: -300px;
+            top: 150px;
+        }
+        #userlogin h3{
+            color: #111;
+            font-size: 16px;
+            line-height: 32px;
+            margin-bottom: 20px;
+        }
+        #userlogin p{
+            margin-bottom: 25px;
+        }
+        #userlogin .input-text{
+            border: 1px solid #ccc;
+            height: 39px;
+            width: 248px;
+            background: url(../Public/images/user.jpg) no-repeat 0 0;
+            padding-left: 50px;
+            font-size: 14px;
+            font-family: "微软雅黑"," 宋体";
+        }
+        #userlogin .input-pwd{
+            background: url(../Public/images/pwd.jpg) no-repeat -1px 0;;
+        }
+        #userlogin .input-btn{
+            display: block;
+            width: 300px;
+            height: 40px;
+            border: none;
+            background: #ff0036;
+            color: #fff;
+            font-family: "微软雅黑"," 宋体";
+            font-size: 16px;
+            font-weight: bold;
+            letter-spacing: 5px;
+        }
+        #userlogin .input-btn:hover{
+            background: rgba(255,0,54,0.93);
+            cursor: pointer;/* cursor属性： 设置鼠标的显示形状 pointer值指的是手型 */
+        }
+        #userlogin h6{
+            text-align: right;
+        }
+        #userlogin h6 a{
+            color: #999;
+            text-decoration: none;
+            margin-right: 12px;
+        }
+        #userlogin h6 a:hover{
+            color: #f30213;
+            font-weight: normal;
+        }
+    </style>
+</head>
+
+<body>
+<form action="__CONTROLLER__/check" method="post" name="userlogin" id="userlogin">
+    <h3>登录</h3>
+    <p>
+        <input class="input-text" type="text" placeholder="会员名/邮箱/手机号" name="username" autofocus required>
+    </p>
+    <p>
+        <input class="input-text input-pwd" type="password" autocomplete="off" name="password" required>
+    </p>
+    <p>
+        <input class="input-btn" type="submit" value="登录">
+    </p>
+    <h6>
+        <a href="#">忘记密码</a><a href="#">忘记会员名</a><a href="__APP__/Home/User/index">免费注册</a>
+    </h6>
+</form>
+</body>
+</html>

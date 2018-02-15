@@ -1,0 +1,48 @@
+<extend name="PersonalCenter/index"/>
+
+<block name="css">
+    <style>
+        .right .welcome{
+            display: none;
+        }
+        .indent{
+            display: none;
+        }
+    </style>
+</block>
+
+<!--个人中心修改收货地址页面-->
+<block name="main">
+    <div class="right_item">
+        <form action="__APP__/Home/PersonalCenter/updateA" method="post" class="r_form">
+            <div class="f_title">修改收货地址</div>
+            <div class="f_left">
+                <ul>
+                    <li>姓名</li>
+                    <li>地址</li>
+                    <li>电话</li>
+                    <li>邮箱</li>
+                    <li class="submit">修改</li>
+                    <li class="reset">取消</li>
+                </ul>
+            </div>
+            <div class="f_right">
+                <ul>
+                    <li><input type="text" name="name" value="{$row['name']}" autofocus required></li>
+                    <li><input type="text" name="address" value="{$row['address']}" required></li>
+                    <li><input type="text" name="phone" value="{$row['phone']}" required></li>
+                    <li><input type="email" name="email" value="{$row['email']}" required></li>
+                    <input type="hidden" name="id" value="{$row['id']}">
+                </ul>
+            </div>
+        </form>
+    </div>
+</block>
+
+<block name="js">
+    <script>
+        //收货地址显示
+        $(".left ul li a").eq(0).css({"color":"#f30213","background":"#fff"});
+
+    </script>
+</block>

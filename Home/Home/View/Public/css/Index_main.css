@@ -1,0 +1,259 @@
+/*主体main样式*/
+main{
+    width: 1210px;
+    margin: 0 auto 15px;
+}
+
+/*各区顶部边框border样式*/
+main .border{
+    border-top: 1px solid #b3dff8;
+    border-bottom: 1px solid #6fc5fe;
+}
+
+/*各区左侧left底部热门关注div样式*/
+main .hot_list{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 183px;
+    height: 168px;
+    padding: 0 30px;
+    background: rgba(0, 0, 0, .6);
+}
+main .hot_list b{
+    position: absolute;
+    display: block;
+    width: 18px;
+    height: 3px;
+    background: #fff;
+    margin: 32px 0 10px;
+    font-weight:bold;
+}
+main .hot_list h4{
+    height: 32px;
+    line-height: 32px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 45px;
+}
+main .hot_list a{
+    display: block;
+    height: 18px;
+    color: #fff;
+    font-size: 12px;
+}
+
+/*各区中间内容区middle样式*/
+main .nav_list{
+    position: relative;
+    z-index: 2;
+}
+main .nav_item{
+    width: 145px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #004b7b;
+    text-align: center;
+    background: #e4e4e4;
+    float: left;
+}
+main .curr{
+    background: #13a2ff;
+    color: #fff;
+    box-shadow: 0 5px 10px rgba(19, 162, 255, .5);
+}
+main .tab_cont{
+    width: 725px;
+    height: 502px;
+    overflow: hidden;
+}
+main .banner_top{
+    width: 725px;
+    height: 251px;
+    position: relative;
+}
+main .banner_list{
+    /*width: 2900px;*/
+    width: 5000px;
+    position: absolute;
+    left: 0;
+}
+main .list_li{
+    width: 725px;
+    height: 251px;
+    float: left;
+}
+main .banner_nav{
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    text-align: center;
+}
+main .nav_li{
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: #dff2ff;
+    margin: 0 5px;
+    float: left;
+}
+main .nav_li.curr{
+    background: #6fc5fe;
+}
+main .banner_bottom{
+    width: 725px;
+}
+main .banner_img{
+    position: relative;
+    float: left;
+    width: 241px;
+    height: 250px;
+    border-top: 1px solid #f8f8f8;
+    border-left: 1px solid #f8f8f8;
+}
+main .banner_img:first-child{
+    border-left: 0;
+}
+/*main .banner_img:hover{*/
+    /*box-shadow: 0 5px 10px rgba(19, 162, 255, .5);*/
+/*}*/
+main .item_li{
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 229px;
+    padding: 10px 20px;
+    text-align: center;
+    border-left: 1px solid #f8f8f8;
+    border-top: 1px solid #f8f8f8;
+}
+main .p_name{
+    margin-top: 5px;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+}
+main .p_price{
+    line-height: 24px;
+    font-size: 14px;
+    color: #c00;
+}
+main .item_li a:hover{
+    color: #f30213;
+}
+main .item_li:hover{
+    box-shadow: 0 5px 10px rgba(19, 162, 255, .5);
+}
+
+/*各区右侧right排行区rank样式*/
+main .rank_nav{
+    width: 241px;
+    height: 32px;
+}
+main .rank_item{
+    width: 120px;
+    height: 32px;
+    font-size: 13px;
+    color: #02579a;
+    background: #dff2ff;
+    line-height: 32px;
+    text-align: center;
+    float: left;
+}
+main .rank_item.curr{
+    background: #6fc5fe;
+    font-weight: 700;
+}
+main .rank_cont{
+    width: 241px;
+    height: 513px;
+}
+main .rank_li{
+    width: 195px;
+    height: 95px;
+    margin: 2px auto 2px;
+    border-top: 1px solid #efefef;
+}
+main .rank_cont .rank_li a:hover{
+    color: #f30213;
+}
+main .rank_hover{
+    float: left;
+    margin-top: 20px;
+}
+main .rank_right{
+    float: left;
+    width: 100px;
+    margin-left: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/*电脑整机complete样式*/
+/*电脑配件parts样式*/
+/*外设装备usb样式*/
+.complete,.parts,.usb{
+    height: 610px;
+    margin-bottom: 15px;
+}
+
+/*各区头部header区*/
+.complete .header,.parts .header,.usb .header{
+    height: 50px;
+    line-height: 50px;
+}
+.complete .title,.parts .title,.usb .title{
+    font-size: 24px;
+    color: #272822;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.complete .sub_title,.parts .sub_title,.usb .sub_title{
+    font-size: 15px;
+    color: #999;
+    font-weight: bold;
+}
+.complete .info,.parts .info,.usb .info{
+    font-size: 15px;
+    color: #c00;
+    float: right;
+    position: relative;
+    right: 15px;
+    top: 5px;
+}
+
+/*各区内容main区*/
+.complete .main,.parts .main,.usb .main{
+    height: 540px;
+}
+/*各区左侧left内容区*/
+.complete .left,.parts .left,.usb .left{
+    width: 243px;
+    height: 538px;
+    position: relative;
+    float: left;
+}
+/*各区中间middle内容区*/
+.complete .middle,.parts .middle,.usb .middle{
+    width: 725px;
+    height: 538px;
+    position: relative;
+    float: left;
+}
+/*各区右侧right内容区*/
+.complete .right,.parts .right,.usb .right{
+    width: 241px;
+    height: 538px;
+    position: relative;
+    float: left;
+    background: #eee;
+    border-left: 1px solid #f8f8f8;
+    overflow: hidden;
+}

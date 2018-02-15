@@ -1,0 +1,32 @@
+<extend name="Index/index"/>
+
+<block name="right">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <div class="panel-title">修改广告</div>
+        </div>
+        <div class="panel-body">
+            <form action="__CONTROLLER__/update" method="post" >
+                <div class="form-group">
+                    <label for="">图片：</label>
+                    <input type="text" name="img" class="form-control" value="{$row['img']}" required autofocus>
+                </div>
+                <div class="form-group">
+                    <label for="">位置：</label>
+                    <input type="text" name="position" class="form-control" value="{$row['position']}" required>
+                </div>
+                <div class="form-group">
+                    <label for="">URL地址：</label>
+                    <input type="text" name="url" class="form-control" value="{$row['url']}" required>
+                </div>
+
+                <input type="hidden" name="id" value="{$row['id']}">
+
+                <div class="form-group">
+                    <input type="submit" value="修改" class="btn btn-primary">
+                    <input type="reset" value="重置" class="btn btn-danger">
+                </div>
+            </form>
+        </div>
+    </div>
+</block>

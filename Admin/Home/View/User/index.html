@@ -1,0 +1,50 @@
+<extend name="Index/index"/>
+
+<block name="css">
+    <link rel="stylesheet" href="../Public/bs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="__CSS__/Index_index.css">
+    <link rel="stylesheet" href="__CSS__/User_index.css">
+</block>
+
+<block name="right">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <div class="panel-title">查看会员</div>
+        </div>
+        <form action="__CONTROLLER__/delAll" method="post">
+            <table class="table table-hover table-bordered table-striped">
+                <tr>
+                    <th>编号</th>
+                    <th>用户名</th>
+                    <th>密码</th>
+                    <th>注册时间</th>
+                    <th>管理员</th>
+                    <th>多选</th>
+                    <th>修改</th>
+                    <th>删除</th>
+                </tr>
+                <volist name="rows" id="row">
+                    <tr>
+                        <td class="td_width">{$row['id']}</td>
+                        <td>{$row['username']}</td>
+                        <td>{$row['password']}</td>
+                        <td>{:date('Y-m-d H:i:s',$row['time'])}</td>
+                        <td class="td_width">{$row['is_admin']?"管理员":"会员"}</td>
+                        <td class="td_width"><input type="checkbox" name="del[]" value="{$row['id']}"></td>
+                        <td class="td_width"><a href="__CONTROLLER__/save/cls/User/id/{$row['id']}" class="btn btn-success">修改</a></td>
+                        <td class="td_width"><a href="__CONTROLLER__/delete/id/{$row['id']}" class="btn btn-danger del">删除</a></td>
+                    </tr>
+                </volist>
+            </table>
+        </form>
+        <div class="panel-footer">
+            <!--分页-->
+            <button class="btn btn-info page">{$page}</button>
+            <div class="button">
+                <button class="btn btn-primary check_all">全选</button>
+                <button class="btn btn-warning clear_all">取消</button>
+                <button class="btn btn-danger del_all">删除</button>
+            </div>
+        </div>
+    </div>
+</block>

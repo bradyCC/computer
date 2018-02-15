@@ -1,0 +1,78 @@
+<extend name="Index/index"/>
+
+<block name="css">
+    <link rel="stylesheet" href="../Public/bs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="__CSS__/Index_index.css">
+    <style>
+        /*收货地址样式*/
+        table,th{
+            text-align: center;
+        }
+        table td{
+            line-height: 20px!important;
+            vertical-align: middle!important;
+        }
+        .td_name{
+            width: 450px;
+            font-size: 14px;
+        }
+        .td_width{
+            width: 50px;
+        }
+        .td_img{
+            width: 150px;
+        }
+        .panel-footer{
+            height: 50px;
+        }
+
+        /* 分页按钮样式 */
+        .page{
+            float: left;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        .first, .end, .next, .prev, .num{
+            color: #fff;
+        }
+        .current{
+            color: #f0f;
+        }
+        .button{
+            float: right;
+        }
+
+    </style>
+</block>
+
+<block name="right">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <div class="panel-title">订单商品详情</div>
+        </div>
+        <table class="table table-hover table-bordered table-striped">
+            <tr>
+                <th>编号</th>
+                <th>商品名称</th>
+                <th>商品图片</th>
+                <th>商品价格</th>
+                <th>商品数量</th>
+                <th>合计金额</th>
+            </tr>
+            <volist name="items" id="item">
+                <tr>
+                    <td class="td_width">{$item['id']}</td>
+                    <td class="td_name">{$item['itemname']}</a></td>
+                    <td class="td_img"><img src="{$item['img']}" alt="" width="150" height="70"></td>
+                    <td>{$item['price']} 元</td>
+                    <td>{$item['num']}</td>
+                    <td>{$item['price']*$item['num']} 元</td>
+                </tr>
+            </volist>
+        </table>
+        <div class="panel-footer">
+            <!--分页-->
+            <button class="btn btn-info page">{$page}</button>
+        </div>
+    </div>
+</block>
